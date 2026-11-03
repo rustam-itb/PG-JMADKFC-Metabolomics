@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 5147,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "0d18f27e7a3adc426db9d4fc27d0e3a6a231e43ec7a05563262c4d04b9f0ef57",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.14761906995726476,
+  "NMI": 0.09708602069717383,
+  "ACC": 0.7012987012987013,
+  "fuzzy_entropy": 0.7186060401208915,
+  "prototype_separation": 1.8759105860152825,
+  "projection_count": 16,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8240270147835034,
+  "missing_completion_mae": 0.6288204856024777,
+  "observed_reconstruction_mse": 0.21273002780127442,
+  "runtime_fit_seconds": 1.156175243000689,
+  "proto_profile_pearson": [
+    0.8704466889439292,
+    0.9425544219214804
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -1.0030023137918913,
+          "abs_importance": 1.0030023137918913
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.8912810395946655,
+          "abs_importance": 0.8912810395946655
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.891211414784106,
+          "abs_importance": 0.891211414784106
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.8720997383383237,
+          "abs_importance": 0.8720997383383237
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.8558557239696243,
+          "abs_importance": 0.8558557239696243
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.8528854279719559,
+          "abs_importance": 0.8528854279719559
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.8263696765291825,
+          "abs_importance": 0.8263696765291825
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.810397570499778,
+          "abs_importance": 0.810397570499778
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.8066882283416373,
+          "abs_importance": 0.8066882283416373
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7953226359016212,
+          "abs_importance": 0.7953226359016212
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.49819787209979616,
+          "abs_importance": 0.49819787209979616
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.4869899655602615,
+          "abs_importance": 0.4869899655602615
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.4856362545913448,
+          "abs_importance": 0.4856362545913448
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": 0.4853062045390505,
+          "abs_importance": 0.4853062045390505
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.4778693063007898,
+          "abs_importance": 0.4778693063007898
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.4703975762872768,
+          "abs_importance": 0.4703975762872768
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.4596745108030247,
+          "abs_importance": 0.4596745108030247
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.4572927019375244,
+          "abs_importance": 0.4572927019375244
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.4548230346664395,
+          "abs_importance": 0.4548230346664395
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.4471423564533328,
+          "abs_importance": 0.4471423564533328
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

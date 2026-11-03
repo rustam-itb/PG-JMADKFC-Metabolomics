@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MCAR",
+  "rate": 0.1,
+  "seed": 9221,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "0b243da077dbdfdc1fbfe21a7cba51c65b16c187166ba63f9d76e70cccbce823",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19174916003337317,
+  "NMI": 0.13092177752682285,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.7547661650544344,
+  "prototype_separation": 1.8369851598152087,
+  "projection_count": 53,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8883360881635108,
+  "missing_completion_mae": 0.6691025742324201,
+  "observed_reconstruction_mse": 0.1926107369267624,
+  "runtime_fit_seconds": 0.8687334339992958,
+  "proto_profile_pearson": [
+    0.8955359326760199,
+    0.9333031026711697
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7949602844064324,
+          "abs_importance": 0.7949602844064324
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7938002285711021,
+          "abs_importance": 0.7938002285711021
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7853321954913292,
+          "abs_importance": 0.7853321954913292
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.763260077872105,
+          "abs_importance": 0.763260077872105
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7604625433395781,
+          "abs_importance": 0.7604625433395781
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7540474941209365,
+          "abs_importance": 0.7540474941209365
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": -0.7504237353962859,
+          "abs_importance": 0.7504237353962859
+        },
+        {
+          "feature": "Serine",
+          "signed_contrast": -0.747855296268881,
+          "abs_importance": 0.747855296268881
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.7446901201247825,
+          "abs_importance": 0.7446901201247825
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7389445381582926,
+          "abs_importance": 0.7389445381582926
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.5033524195003397,
+          "abs_importance": 0.5033524195003397
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.4947715966672414,
+          "abs_importance": 0.4947715966672414
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.48615081927127335,
+          "abs_importance": 0.48615081927127335
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.48458794720812687,
+          "abs_importance": 0.48458794720812687
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": 0.4781584773502258,
+          "abs_importance": 0.4781584773502258
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.47747715240450117,
+          "abs_importance": 0.47747715240450117
+        },
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.4739586642627401,
+          "abs_importance": 0.4739586642627401
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.46484327465487646,
+          "abs_importance": 0.46484327465487646
+        },
+        {
+          "feature": "Serine",
+          "signed_contrast": 0.4636534717588908,
+          "abs_importance": 0.4636534717588908
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.46360118165479286,
+          "abs_importance": 0.46360118165479286
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

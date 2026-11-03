@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MCAR",
+  "rate": 0.3,
+  "seed": 4127,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "b2f2ccbaa39e219606be5f418d34947b84df27270bb8ca0c089ffc6062254170",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.17291185039966062,
+  "NMI": 0.13041682003442331,
+  "ACC": 0.7142857142857143,
+  "fuzzy_entropy": 0.7414455959689125,
+  "prototype_separation": 1.564801898712382,
+  "projection_count": 43,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8190612143004877,
+  "missing_completion_mae": 0.6257530983688329,
+  "observed_reconstruction_mse": 0.17007856175747643,
+  "runtime_fit_seconds": 1.0328056449998257,
+  "proto_profile_pearson": [
+    0.8028184416409295,
+    0.9088474935692555
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7824470080002842,
+          "abs_importance": 0.7824470080002842
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": -0.7225595870689988,
+          "abs_importance": 0.7225595870689988
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7138637789943059,
+          "abs_importance": 0.7138637789943059
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7001958197161953,
+          "abs_importance": 0.7001958197161953
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.6965351458246024,
+          "abs_importance": 0.6965351458246024
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.6953404312455274,
+          "abs_importance": 0.6953404312455274
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.6933658590790309,
+          "abs_importance": 0.6933658590790309
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.684191657437148,
+          "abs_importance": 0.684191657437148
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.6835177584796261,
+          "abs_importance": 0.6835177584796261
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": -0.666957868878278,
+          "abs_importance": 0.666957868878278
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.5903803608720073,
+          "abs_importance": 0.5903803608720073
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.5869667485134269,
+          "abs_importance": 0.5869667485134269
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.5677621498119624,
+          "abs_importance": 0.5677621498119624
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.5528850781468941,
+          "abs_importance": 0.5528850781468941
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.5515910632609821,
+          "abs_importance": 0.5515910632609821
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.5337228586073365,
+          "abs_importance": 0.5337228586073365
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.5314607286801881,
+          "abs_importance": 0.5314607286801881
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": 0.5266948700182019,
+          "abs_importance": 0.5266948700182019
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.5211190713085,
+          "abs_importance": 0.5211190713085
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": 0.5161615088514411,
+          "abs_importance": 0.5161615088514411
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

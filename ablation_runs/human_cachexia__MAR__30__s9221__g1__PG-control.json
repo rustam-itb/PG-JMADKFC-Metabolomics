@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MAR",
+  "rate": 0.3,
+  "seed": 9221,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "6cbcd1c03b883b32983f9d269b8309287a5f368c2e0befa13c3a3df5d4e5cd36",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.11156889673664247,
+  "NMI": 0.08658726467550838,
+  "ACC": 0.6753246753246753,
+  "fuzzy_entropy": 0.8148032105829938,
+  "prototype_separation": 1.9225915959773612,
+  "projection_count": 30,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8359412029560758,
+  "missing_completion_mae": 0.642943982802763,
+  "observed_reconstruction_mse": 0.15731717160976233,
+  "runtime_fit_seconds": 1.0247259530005977,
+  "proto_profile_pearson": [
+    0.7441001344971764,
+    0.8900961678025985
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.6766974313687142,
+          "abs_importance": 0.6766974313687142
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.657886907384833,
+          "abs_importance": 0.657886907384833
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.6497021104316567,
+          "abs_importance": 0.6497021104316567
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": -0.6387194699674191,
+          "abs_importance": 0.6387194699674191
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.6326757643470476,
+          "abs_importance": 0.6326757643470476
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.6306997162757858,
+          "abs_importance": 0.6306997162757858
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.6296795725070785,
+          "abs_importance": 0.6296795725070785
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.6257727379752198,
+          "abs_importance": 0.6257727379752198
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.6233309764132239,
+          "abs_importance": 0.6233309764132239
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.6206780400020984,
+          "abs_importance": 0.6206780400020984
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.6722343888470464,
+          "abs_importance": 0.6722343888470464
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.6201794314853468,
+          "abs_importance": 0.6201794314853468
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": 0.6009566486807345,
+          "abs_importance": 0.6009566486807345
+        },
+        {
+          "feature": "3-Hydroxyisovalerate",
+          "signed_contrast": 0.5932801675641828,
+          "abs_importance": 0.5932801675641828
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": 0.5819047740444676,
+          "abs_importance": 0.5819047740444676
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.5812212579838008,
+          "abs_importance": 0.5812212579838008
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.5787942370532426,
+          "abs_importance": 0.5787942370532426
+        },
+        {
+          "feature": "Serine",
+          "signed_contrast": 0.5633028962434171,
+          "abs_importance": 0.5633028962434171
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.5616343423915834,
+          "abs_importance": 0.5616343423915834
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.5602349620192135,
+          "abs_importance": 0.5602349620192135
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

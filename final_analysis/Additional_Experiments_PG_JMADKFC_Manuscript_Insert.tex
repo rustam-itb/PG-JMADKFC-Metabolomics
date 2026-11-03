@@ -1,0 +1,103 @@
+% This insert is generated from executed supplementary experiments. Include within Section 5 after updating main-table references.
+\subsection{Additional Controlled Experiments}
+The following component-ablation, missingness-sensitivity, masked-entry recovery, and metabolite-sensitivity experiments were conducted using the same three datasets and observed-entry normalization as the main benchmark. Class labels were not used to fit any model. The analyses provide additional dataset-dependent evidence, not an independent biological validation cohort.
+
+\subsubsection{Component Ablation}
+To evaluate the separate influence of the proposed components, the complete PG-JMADKFC configuration was compared against controlled variants in which one component was disabled or replaced. Each configuration was fitted using the original 18 MAR/MNAR scenarios and 10 random seeds (180 fits per variant). All comparisons used identical masks within each dataset--mechanism--rate--seed condition. The tested changes include removing prototype-guided completion, the mask input, gradient safeguarding, prototype separation, latent variance safeguarding, or the clustering gradient, as well as shuffling the mask input, using a global rather than locally adaptive kernel bandwidth, or evaluating a reconstruction objective with zero targets at masked entries. A higher ARI for the complete model in a paired setting is evidence of a favorable contribution under that setting, not proof of universal superiority.
+
+\begin{table*}[t]
+\centering
+\caption{Controlled component ablation of PG-JMADKFC on three metabolomics datasets. ARI values are means across 60 fits per dataset (two mechanisms, three rates, ten seeds). The final column reports the paired difference between the complete method and each ablation, averaged across 180 matched fits; positive values favor the complete method.}
+\label{tab:pg_component_ablation}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccccc}
+\toprule
+Configuration & MTBLS161 & MTBLS404 & Human Cachexia & Mean ARI & $\Delta\mathrm{ARI}$ (PG--ablation) \\
+\midrule
+PG-JMADKFC (complete) & 0.1511 & 0.0231 & 0.1595 & 0.1112 & 0.0000 \\
+Without prototype completion & 0.1495 & 0.0232 & 0.1578 & 0.1101 & 0.0011 \\
+Without mask input & 0.1547 & 0.0229 & 0.1578 & 0.1118 & -0.0006 \\
+Shuffled mask input & 0.1503 & 0.0260 & 0.1613 & 0.1125 & -0.0013 \\
+Without gradient safeguard & 0.1063 & 0.0845 & 0.1809 & 0.1239 & -0.0126 \\
+Without prototype separation & 0.1554 & 0.0221 & 0.1444 & 0.1073 & 0.0040 \\
+Without variance safeguard & 0.1526 & 0.0225 & 0.1617 & 0.1123 & -0.0010 \\
+Global bandwidth kernel & 0.1145 & 0.0185 & 0.0921 & 0.0750 & 0.0362 \\
+Zero-target reconstruction & 0.1279 & 0.0233 & 0.1290 & 0.0934 & 0.0178 \\
+Without clustering gradient & 0.1007 & 0.0344 & 0.1775 & 0.1042 & 0.0071 \\
+Mask scale 0.10 & 0.1594 & 0.0233 & 0.1688 & 0.1172 & -0.0059 \\
+Mask scale 0.50 & 0.1529 & 0.0244 & 0.1560 & 0.1111 & 0.0001 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Table~\ref{tab:pg_component_ablation} summarizes the observed ablation effects. Component contributions varied across the three datasets; therefore, the full set of paired scenario-level results is provided in the supplementary experiment files. These findings are descriptive of the evaluated settings and do not establish that every mechanism consistently improves clustering.
+
+\subsubsection{Sensitivity to Missingness Mechanism and Strength}
+To extend the main MAR/MNAR analysis beyond a fixed missingness-strength parameter, the proposed method was independently evaluated under $\gamma\in\{1,3,5\}$ at 10\%, 20\%, and 30\% missingness. For each value of $\gamma$, masks were newly sampled; consequently, results across different strengths are comparisons of experimental regimes, not matched-mask ablations. Additional missing-completely-at-random (MCAR) experiments were performed using the same three rates and ten seeds. These experiments examine the sensitivity of the proposed method to masking conditions without assuming that any particular missingness mechanism is always informative for clustering.
+
+\begin{table*}[t]
+\centering
+\caption{Mean ARI under MAR/MNAR missingness strengths and MCAR. Each dataset cell aggregates 30 fits (three rates and ten seeds). MCAR has no strength parameter.}
+\label{tab:pg_gamma_mcar}
+\small
+\begin{tabular}{lccccc}
+\toprule
+Mechanism & $\gamma$ & MTBLS161 & MTBLS404 & Human Cachexia & Overall \\
+\midrule
+MAR & 1 & 0.1807 & 0.0155 & 0.1523 & 0.1162\\
+MAR & 3 & 0.1678 & 0.0194 & 0.1376 & 0.1083\\
+MAR & 5 & 0.1638 & 0.0207 & 0.1159 & 0.1001\\
+MNAR & 1 & 0.1493 & 0.0244 & 0.1577 & 0.1105\\
+MNAR & 3 & 0.1344 & 0.0269 & 0.1814 & 0.1142\\
+MNAR & 5 & 0.1397 & 0.0413 & 0.1825 & 0.1212\\
+MCAR & -- & 0.1618 & 0.0297 & 0.1552 & 0.1156\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsubsection{Masked-Entry Completion Under Matched Masks}
+For each of the 180 frozen MAR/MNAR mask realizations, the final prototype-guided completed input was compared with observed-only mean, median, KNN, MICE, and rank-five iterative low-rank SVD completion. RMSE and MAE were calculated only on artificially hidden values after transforming the complete reference with parameters estimated exclusively from observed entries. The reconstruction outputs from the neural decoder are not conflated with the prototype-guided completed inputs. The low-rank SVD comparison is a simple fixed-rank reference and is not presented as a state-of-the-art nuclear-norm solver.
+
+\begin{table*}[t]
+\centering
+\caption{Masked-entry completion performance on held-out values. Mean RMSE (MAE) is averaged over 60 masks for each dataset. Lower is better.}
+\label{tab:pg_completion_baselines}
+\small
+\begin{tabular}{lccc}
+\toprule
+Method & MTBLS161 & MTBLS404 & Human Cachexia \\
+\midrule
+PG-JMADKFC & 1.2285 (0.9175) & 1.2136 (0.8425) & 0.8692 (0.6729)\\
+Mean & 1.3060 (0.9983) & 1.2866 (0.9428) & 1.2283 (1.0207)\\
+Median & 1.3033 (0.9802) & 1.3074 (0.9558) & 1.2569 (1.0411)\\
+KNN & 1.0786 (0.7899) & 0.9752 (0.6450) & 0.7824 (0.5975)\\
+MICE & 1.0718 (0.7683) & 0.8073 (0.5151) & 0.8156 (0.6158)\\
+IterativeSVD & 1.1394 (0.8134) & 0.9889 (0.6112) & 0.8110 (0.6106)\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsubsection{Prototype Consistency and Inference-Time Feature Sensitivity}
+Decoded metabolite-space prototypes were compared with fuzzy membership-weighted profiles computed only from observed measurements. These correlations describe post-fit representational agreement, not biological pathway validation. In a separate perturbation analysis, each observed metabolite was permuted among its observed samples while holding the fitted PG-JMADKFC model, observation mask, and all other features fixed. The resulting change in fuzzy memberships quantifies inference-time model sensitivity; it is not a biological causal effect.
+
+\begin{table*}[t]
+\centering
+\caption{Prototype--profile agreement and feature-sensitivity diagnostic. Mean Spearman $\rho$ quantifies association of descriptive metabolite importance with model sensitivity, using five seeds per MAR/MNAR 20\% condition.}
+\label{tab:pg_feature_sensitivity}
+\small
+\begin{tabular}{lcc}
+\toprule
+Dataset & Prototype Pearson $r$ & Importance/sensitivity $\rho$ \\
+\midrule
+MTBLS161 & 0.7326 & 0.2564 \\
+MTBLS404 & 0.9104 & 0.0756 \\
+Human Cachexia & 0.8737 & -0.0271 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The two MetaboLights prepared matrices contain anonymized feature labels (e.g., M1, M2) without a verified source-to-metabolite mapping in the benchmark archive. Accordingly, source-specific metabolite names and biological mechanisms should not be inferred from these indices. The named features in \texttt{human\_cachexia} enable an exploratory descriptive analysis, but independent biological validation is not established by this computational benchmark.
+
+\paragraph{Limitations of the additional experiments.}
+All analyses reuse three binary-class datasets, so the 18 simulated conditions do not constitute 18 independent biological cohorts. The new tests clarify sensitivity to model components and missingness but do not establish performance on real missingness, multiclass phenotypes, or independent clinical cohorts. Any inferential comparison across scenario means must therefore account for this dependence, and the effects should be reported as conditional on the studied data and simulation choices.

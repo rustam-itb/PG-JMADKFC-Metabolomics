@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "MTBLS404",
+  "mechanism": "MAR",
+  "rate": 0.1,
+  "seed": 8209,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "8a0a5644c8ed5cbf2ba9adea84627976ea87ec051e395c9c0921ad5c78b2189a",
+  "source_sha256": "0ca2012f12363d4c70ff15fc937c08fb7c112fcb4dbd92943ea6a7505ee8b8cf",
+  "n_samples": 184,
+  "n_features": 120,
+  "ARI": 0.04196804415529712,
+  "NMI": 0.04196918294275676,
+  "ACC": 0.6086956521739131,
+  "fuzzy_entropy": 0.6939289355526769,
+  "prototype_separation": 1.5309616655706149,
+  "projection_count": 131,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.9665868279860172,
+  "missing_completion_mae": 0.6561058299413391,
+  "observed_reconstruction_mse": 0.2864084933578152,
+  "runtime_fit_seconds": 2.013471150999976,
+  "proto_profile_pearson": [
+    0.9315404957563448,
+    0.91157084770023
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "M115",
+          "signed_contrast": 0.5535365087187334,
+          "abs_importance": 0.5535365087187334
+        },
+        {
+          "feature": "M116",
+          "signed_contrast": 0.5490682966926316,
+          "abs_importance": 0.5490682966926316
+        },
+        {
+          "feature": "M103",
+          "signed_contrast": 0.5336386422553948,
+          "abs_importance": 0.5336386422553948
+        },
+        {
+          "feature": "M24",
+          "signed_contrast": 0.5255802881206073,
+          "abs_importance": 0.5255802881206073
+        },
+        {
+          "feature": "M38",
+          "signed_contrast": 0.5144594761822068,
+          "abs_importance": 0.5144594761822068
+        },
+        {
+          "feature": "M12",
+          "signed_contrast": 0.5118442385305382,
+          "abs_importance": 0.5118442385305382
+        },
+        {
+          "feature": "M65",
+          "signed_contrast": 0.5029838684380125,
+          "abs_importance": 0.5029838684380125
+        },
+        {
+          "feature": "M56",
+          "signed_contrast": 0.49067748728972677,
+          "abs_importance": 0.49067748728972677
+        },
+        {
+          "feature": "M100",
+          "signed_contrast": 0.48915714656537645,
+          "abs_importance": 0.48915714656537645
+        },
+        {
+          "feature": "M105",
+          "signed_contrast": 0.4857642760644689,
+          "abs_importance": 0.4857642760644689
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "M115",
+          "signed_contrast": -0.42861674653585896,
+          "abs_importance": 0.42861674653585896
+        },
+        {
+          "feature": "M56",
+          "signed_contrast": -0.41214744822500005,
+          "abs_importance": 0.41214744822500005
+        },
+        {
+          "feature": "M103",
+          "signed_contrast": -0.41035314447521437,
+          "abs_importance": 0.41035314447521437
+        },
+        {
+          "feature": "M116",
+          "signed_contrast": -0.3995536000564523,
+          "abs_importance": 0.3995536000564523
+        },
+        {
+          "feature": "M38",
+          "signed_contrast": -0.3938051826727547,
+          "abs_importance": 0.3938051826727547
+        },
+        {
+          "feature": "M65",
+          "signed_contrast": -0.38156309675906785,
+          "abs_importance": 0.38156309675906785
+        },
+        {
+          "feature": "M31",
+          "signed_contrast": -0.3525514579169983,
+          "abs_importance": 0.3525514579169983
+        },
+        {
+          "feature": "M24",
+          "signed_contrast": -0.3434737187986949,
+          "abs_importance": 0.3434737187986949
+        },
+        {
+          "feature": "M100",
+          "signed_contrast": -0.335106722339396,
+          "abs_importance": 0.335106722339396
+        },
+        {
+          "feature": "M45",
+          "signed_contrast": -0.3295433048619701,
+          "abs_importance": 0.3295433048619701
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "MTBLS161",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 8209,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "8ce527e183bc1d35457416dfdfbb85d4bac152f01be244f8a00fe0e10744edce",
+  "source_sha256": "ee275f6a7908f1de98d06c416f73c7c1e0097d0ed1fbc4572551f9f8571eb11e",
+  "n_samples": 59,
+  "n_features": 29,
+  "ARI": 0.11171406751016806,
+  "NMI": 0.09242967066285279,
+  "ACC": 0.6779661016949152,
+  "fuzzy_entropy": 0.9126253510022155,
+  "prototype_separation": 1.265773311107993,
+  "projection_count": 28,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.0586445449256614,
+  "missing_completion_mae": 0.8221446781686211,
+  "observed_reconstruction_mse": 0.024848104826086508,
+  "runtime_fit_seconds": 0.9870847880010842,
+  "proto_profile_pearson": [
+    0.9013053629395679,
+    0.8869973554165966
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "M15",
+          "signed_contrast": -0.42599603225850013,
+          "abs_importance": 0.42599603225850013
+        },
+        {
+          "feature": "M2",
+          "signed_contrast": -0.39958188494798996,
+          "abs_importance": 0.39958188494798996
+        },
+        {
+          "feature": "M23",
+          "signed_contrast": -0.37094122916266786,
+          "abs_importance": 0.37094122916266786
+        },
+        {
+          "feature": "M17",
+          "signed_contrast": -0.3180506237161798,
+          "abs_importance": 0.3180506237161798
+        },
+        {
+          "feature": "M20",
+          "signed_contrast": -0.3106871187370498,
+          "abs_importance": 0.3106871187370498
+        },
+        {
+          "feature": "M13",
+          "signed_contrast": -0.31051866874588246,
+          "abs_importance": 0.31051866874588246
+        },
+        {
+          "feature": "M16",
+          "signed_contrast": -0.3063095198486644,
+          "abs_importance": 0.3063095198486644
+        },
+        {
+          "feature": "M14",
+          "signed_contrast": -0.30545303973245613,
+          "abs_importance": 0.30545303973245613
+        },
+        {
+          "feature": "M4",
+          "signed_contrast": -0.30430697759615905,
+          "abs_importance": 0.30430697759615905
+        },
+        {
+          "feature": "M25",
+          "signed_contrast": -0.3034970938780503,
+          "abs_importance": 0.3034970938780503
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "M17",
+          "signed_contrast": 0.43765632957337,
+          "abs_importance": 0.43765632957337
+        },
+        {
+          "feature": "M2",
+          "signed_contrast": 0.43163802350854685,
+          "abs_importance": 0.43163802350854685
+        },
+        {
+          "feature": "M15",
+          "signed_contrast": 0.4256108569464405,
+          "abs_importance": 0.4256108569464405
+        },
+        {
+          "feature": "M4",
+          "signed_contrast": 0.358005602877947,
+          "abs_importance": 0.358005602877947
+        },
+        {
+          "feature": "M23",
+          "signed_contrast": 0.3495265915432525,
+          "abs_importance": 0.3495265915432525
+        },
+        {
+          "feature": "M25",
+          "signed_contrast": 0.34147454735768,
+          "abs_importance": 0.34147454735768
+        },
+        {
+          "feature": "M14",
+          "signed_contrast": 0.3152760101777048,
+          "abs_importance": 0.3152760101777048
+        },
+        {
+          "feature": "M19",
+          "signed_contrast": 0.3122260466342272,
+          "abs_importance": 0.3122260466342272
+        },
+        {
+          "feature": "M16",
+          "signed_contrast": 0.3078312038435279,
+          "abs_importance": 0.3078312038435279
+        },
+        {
+          "feature": "M13",
+          "signed_contrast": 0.2931947700665825,
+          "abs_importance": 0.2931947700665825
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

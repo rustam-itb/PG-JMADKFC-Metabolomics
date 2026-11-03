@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 3109,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "dc65963409ada7049d15951183304ce39c718ddbea538b004f8fc04bbb305f59",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.12941110424970528,
+  "NMI": 0.08913984577036252,
+  "ACC": 0.6883116883116883,
+  "fuzzy_entropy": 0.7301223398916152,
+  "prototype_separation": 1.5981320789745135,
+  "projection_count": 78,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8699632437109965,
+  "missing_completion_mae": 0.7067680596231224,
+  "observed_reconstruction_mse": 0.205854304724441,
+  "runtime_fit_seconds": 1.0006938009992155,
+  "proto_profile_pearson": [
+    0.935106838595642,
+    0.8313370954174177
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.49754601281520655,
+          "abs_importance": 0.49754601281520655
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.48943735247228676,
+          "abs_importance": 0.48943735247228676
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.4521129302269634,
+          "abs_importance": 0.4521129302269634
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.4381099800026637,
+          "abs_importance": 0.4381099800026637
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": 0.435122567310004,
+          "abs_importance": 0.435122567310004
+        },
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.4345305825144863,
+          "abs_importance": 0.4345305825144863
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.4269959027653235,
+          "abs_importance": 0.4269959027653235
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.4257710590995014,
+          "abs_importance": 0.4257710590995014
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.4165569335784276,
+          "abs_importance": 0.4165569335784276
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.409090752140956,
+          "abs_importance": 0.409090752140956
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.8449914236196041,
+          "abs_importance": 0.8449914236196041
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.8372059280441837,
+          "abs_importance": 0.8372059280441837
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.8061699043152684,
+          "abs_importance": 0.8061699043152684
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7796063214939933,
+          "abs_importance": 0.7796063214939933
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.778198718984062,
+          "abs_importance": 0.778198718984062
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7727431234693564,
+          "abs_importance": 0.7727431234693564
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7566992172952927,
+          "abs_importance": 0.7566992172952927
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7565987758633067,
+          "abs_importance": 0.7565987758633067
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.7499677790498823,
+          "abs_importance": 0.7499677790498823
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7494952388229091,
+          "abs_importance": 0.7494952388229091
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

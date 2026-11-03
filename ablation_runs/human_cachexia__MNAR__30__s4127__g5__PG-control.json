@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 4127,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "03e197374496a99c3e3c9aab04a6c4e7c3548f6852986cd59525066c3298b9f0",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.21707633766241083,
+  "NMI": 0.1504600731085426,
+  "ACC": 0.7402597402597403,
+  "fuzzy_entropy": 0.8232363207333024,
+  "prototype_separation": 1.43155863628793,
+  "projection_count": 36,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.0916858165358543,
+  "missing_completion_mae": 0.8900565240743138,
+  "observed_reconstruction_mse": 0.15895902457399752,
+  "runtime_fit_seconds": 0.9397275559986156,
+  "proto_profile_pearson": [
+    0.6769822872187777,
+    0.8416672548481936
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.6232843569293958,
+          "abs_importance": 0.6232843569293958
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.5999515824355458,
+          "abs_importance": 0.5999515824355458
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.5825400553916771,
+          "abs_importance": 0.5825400553916771
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.561835352063306,
+          "abs_importance": 0.561835352063306
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.5363404567022447,
+          "abs_importance": 0.5363404567022447
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.5251423257862454,
+          "abs_importance": 0.5251423257862454
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": -0.5240348007736967,
+          "abs_importance": 0.5240348007736967
+        },
+        {
+          "feature": "Guanidoacetate",
+          "signed_contrast": -0.5218120791782087,
+          "abs_importance": 0.5218120791782087
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": -0.5143126444691919,
+          "abs_importance": 0.5143126444691919
+        },
+        {
+          "feature": "Taurine",
+          "signed_contrast": -0.5108223439179781,
+          "abs_importance": 0.5108223439179781
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.3156522232630904,
+          "abs_importance": 0.3156522232630904
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.3064147702437089,
+          "abs_importance": 0.3064147702437089
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.2887431619252843,
+          "abs_importance": 0.2887431619252843
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.2553476960068536,
+          "abs_importance": 0.2553476960068536
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.24161336653639262,
+          "abs_importance": 0.24161336653639262
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.21973638396754297,
+          "abs_importance": 0.21973638396754297
+        },
+        {
+          "feature": "Guanidoacetate",
+          "signed_contrast": 0.21917618967874097,
+          "abs_importance": 0.21917618967874097
+        },
+        {
+          "feature": "Hippurate",
+          "signed_contrast": 0.20560320410265692,
+          "abs_importance": 0.20560320410265692
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.20339227291162942,
+          "abs_importance": 0.20339227291162942
+        },
+        {
+          "feature": "Taurine",
+          "signed_contrast": 0.20093258450056453,
+          "abs_importance": 0.20093258450056453
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

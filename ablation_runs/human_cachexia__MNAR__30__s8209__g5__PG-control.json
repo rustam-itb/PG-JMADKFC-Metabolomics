@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 8209,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "6dcce24d8853bcf9e9866f7c850f8e4c9054972b3b7e5f4b1fd1341671d4950a",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.2437006562744813,
+  "NMI": 0.17128576239163865,
+  "ACC": 0.7532467532467533,
+  "fuzzy_entropy": 0.8015918616874906,
+  "prototype_separation": 1.730853458252891,
+  "projection_count": 46,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.038429740742904,
+  "missing_completion_mae": 0.8507247293673231,
+  "observed_reconstruction_mse": 0.1322538215568415,
+  "runtime_fit_seconds": 1.0189069569987623,
+  "proto_profile_pearson": [
+    0.5244285145553927,
+    0.8365967988857863
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7731764051784842,
+          "abs_importance": 0.7731764051784842
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7710090108314879,
+          "abs_importance": 0.7710090108314879
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.7687365971230249,
+          "abs_importance": 0.7687365971230249
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.7681890465837997,
+          "abs_importance": 0.7681890465837997
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7312392574799617,
+          "abs_importance": 0.7312392574799617
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": -0.6828394496326372,
+          "abs_importance": 0.6828394496326372
+        },
+        {
+          "feature": "Serine",
+          "signed_contrast": -0.6651933177827969,
+          "abs_importance": 0.6651933177827969
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.651816137526288,
+          "abs_importance": 0.651816137526288
+        },
+        {
+          "feature": "Glycine",
+          "signed_contrast": -0.6396939161606826,
+          "abs_importance": 0.6396939161606826
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": -0.6285549132710456,
+          "abs_importance": 0.6285549132710456
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.3408381907660949,
+          "abs_importance": 0.3408381907660949
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.3213707258319215,
+          "abs_importance": 0.3213707258319215
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.30028466218504846,
+          "abs_importance": 0.30028466218504846
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.29346569547510964,
+          "abs_importance": 0.29346569547510964
+        },
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.2887514557566994,
+          "abs_importance": 0.2887514557566994
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.2845250925478189,
+          "abs_importance": 0.2845250925478189
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.278694195961114,
+          "abs_importance": 0.278694195961114
+        },
+        {
+          "feature": "Methylguanidine",
+          "signed_contrast": 0.27648788636399413,
+          "abs_importance": 0.27648788636399413
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.2730174515461449,
+          "abs_importance": 0.2730174515461449
+        },
+        {
+          "feature": "Glycine",
+          "signed_contrast": 0.27101814048237727,
+          "abs_importance": 0.27101814048237727
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

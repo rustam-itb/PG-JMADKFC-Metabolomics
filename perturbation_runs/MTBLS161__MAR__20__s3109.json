@@ -1,0 +1,247 @@
+{
+  "status": "success",
+  "dataset": "MTBLS161",
+  "mechanism": "MAR",
+  "rate": 0.2,
+  "seed": 3109,
+  "source_sha256": "ee275f6a7908f1de98d06c416f73c7c1e0097d0ed1fbc4572551f9f8571eb11e",
+  "mask_sha256": "83c91883d405a716b5fac205e222abac35a91119c2b9c39a9b3a0e291991c177",
+  "proto_profile_pearson": [
+    0.684327282222168,
+    0.8611720812289844
+  ],
+  "per_feature": [
+    {
+      "feature": "M1",
+      "signed_cluster0": -0.2229111452179165,
+      "signed_cluster1": 0.3422647936190658,
+      "importance_abs_max": 0.3422647936190658,
+      "membership_sensitivity": 0.019925032308787026,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M2",
+      "signed_cluster0": -0.12282815113537827,
+      "signed_cluster1": 0.27002452306036834,
+      "importance_abs_max": 0.27002452306036834,
+      "membership_sensitivity": 0.006723359137046774,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M3",
+      "signed_cluster0": -0.06687772937559197,
+      "signed_cluster1": 0.12548347772835505,
+      "importance_abs_max": 0.12548347772835505,
+      "membership_sensitivity": 0.00779440281557788,
+      "cluster_flip_rate": 0.03389830508474576
+    },
+    {
+      "feature": "M4",
+      "signed_cluster0": -0.21223669571049694,
+      "signed_cluster1": 0.28093705411782116,
+      "importance_abs_max": 0.28093705411782116,
+      "membership_sensitivity": 0.00988174380230537,
+      "cluster_flip_rate": 0.05084745762711865
+    },
+    {
+      "feature": "M5",
+      "signed_cluster0": 0.02401975736554822,
+      "signed_cluster1": -0.04269783107147697,
+      "importance_abs_max": 0.04269783107147697,
+      "membership_sensitivity": 0.018249827947191218,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M6",
+      "signed_cluster0": -0.16355741680466898,
+      "signed_cluster1": 0.16286387406226696,
+      "importance_abs_max": 0.16355741680466898,
+      "membership_sensitivity": 0.017607142197793794,
+      "cluster_flip_rate": 0.05084745762711865
+    },
+    {
+      "feature": "M7",
+      "signed_cluster0": -0.19158671661359436,
+      "signed_cluster1": 0.19824335332355017,
+      "importance_abs_max": 0.19824335332355017,
+      "membership_sensitivity": 0.01525365937881765,
+      "cluster_flip_rate": 0.03389830508474576
+    },
+    {
+      "feature": "M8",
+      "signed_cluster0": -0.07943853425423274,
+      "signed_cluster1": 0.1180965405810919,
+      "importance_abs_max": 0.1180965405810919,
+      "membership_sensitivity": 0.014401671489877513,
+      "cluster_flip_rate": 0.03389830508474576
+    },
+    {
+      "feature": "M9",
+      "signed_cluster0": 0.03371993769477071,
+      "signed_cluster1": -0.024400324246740185,
+      "importance_abs_max": 0.03371993769477071,
+      "membership_sensitivity": 0.008735005736211441,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "M10",
+      "signed_cluster0": -0.032869552214453084,
+      "signed_cluster1": 0.08430205125463033,
+      "importance_abs_max": 0.08430205125463033,
+      "membership_sensitivity": 0.01340587807056059,
+      "cluster_flip_rate": 0.03389830508474576
+    },
+    {
+      "feature": "M11",
+      "signed_cluster0": -0.16484640941116144,
+      "signed_cluster1": 0.2338289414446531,
+      "importance_abs_max": 0.2338289414446531,
+      "membership_sensitivity": 0.01400025376035309,
+      "cluster_flip_rate": 0.05084745762711865
+    },
+    {
+      "feature": "M12",
+      "signed_cluster0": 0.16037534587131738,
+      "signed_cluster1": -0.21740661196838085,
+      "importance_abs_max": 0.21740661196838085,
+      "membership_sensitivity": 0.00910107624363062,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M13",
+      "signed_cluster0": -0.24125353872309327,
+      "signed_cluster1": 0.30882694064890726,
+      "importance_abs_max": 0.30882694064890726,
+      "membership_sensitivity": 0.008782855410488394,
+      "cluster_flip_rate": 0.05084745762711865
+    },
+    {
+      "feature": "M14",
+      "signed_cluster0": -0.13069973054946513,
+      "signed_cluster1": 0.18649159636864393,
+      "importance_abs_max": 0.18649159636864393,
+      "membership_sensitivity": 0.00813751526394474,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "M15",
+      "signed_cluster0": -0.33357067199793405,
+      "signed_cluster1": 0.4199619041070962,
+      "importance_abs_max": 0.4199619041070962,
+      "membership_sensitivity": 0.006036454697165531,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M16",
+      "signed_cluster0": -0.09405027472002914,
+      "signed_cluster1": 0.16475192745903242,
+      "importance_abs_max": 0.16475192745903242,
+      "membership_sensitivity": 0.008213160718571113,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M17",
+      "signed_cluster0": -0.3420892407866981,
+      "signed_cluster1": 0.4707083112893319,
+      "importance_abs_max": 0.4707083112893319,
+      "membership_sensitivity": 0.037567427336573825,
+      "cluster_flip_rate": 0.06779661016949153
+    },
+    {
+      "feature": "M18",
+      "signed_cluster0": -0.022948336981092464,
+      "signed_cluster1": 0.012811113497858875,
+      "importance_abs_max": 0.022948336981092464,
+      "membership_sensitivity": 0.008104987943039363,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M19",
+      "signed_cluster0": -0.3173077651796657,
+      "signed_cluster1": 0.4448566677648189,
+      "importance_abs_max": 0.4448566677648189,
+      "membership_sensitivity": 0.017844470787712754,
+      "cluster_flip_rate": 0.05084745762711865
+    },
+    {
+      "feature": "M20",
+      "signed_cluster0": -0.06271822764326863,
+      "signed_cluster1": 0.06527172759077071,
+      "importance_abs_max": 0.06527172759077071,
+      "membership_sensitivity": 0.013776450824751582,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M21",
+      "signed_cluster0": -0.09703496310765594,
+      "signed_cluster1": 0.13825397485993562,
+      "importance_abs_max": 0.13825397485993562,
+      "membership_sensitivity": 0.004946424515289549,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M22",
+      "signed_cluster0": -0.23678249413929164,
+      "signed_cluster1": 0.30834338457542837,
+      "importance_abs_max": 0.30834338457542837,
+      "membership_sensitivity": 0.01128491289542046,
+      "cluster_flip_rate": 0.03389830508474576
+    },
+    {
+      "feature": "M23",
+      "signed_cluster0": -0.12366784926666119,
+      "signed_cluster1": 0.19406776342507726,
+      "importance_abs_max": 0.19406776342507726,
+      "membership_sensitivity": 0.008835768909204027,
+      "cluster_flip_rate": 0.03389830508474576
+    },
+    {
+      "feature": "M24",
+      "signed_cluster0": -0.17434173384260626,
+      "signed_cluster1": 0.20062497033526713,
+      "importance_abs_max": 0.20062497033526713,
+      "membership_sensitivity": 0.007506302524546408,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M25",
+      "signed_cluster0": -0.2978427813881278,
+      "signed_cluster1": 0.391868269469424,
+      "importance_abs_max": 0.391868269469424,
+      "membership_sensitivity": 0.011683955010499078,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M26",
+      "signed_cluster0": -0.025933780091222304,
+      "signed_cluster1": 0.08914511041495171,
+      "importance_abs_max": 0.08914511041495171,
+      "membership_sensitivity": 0.012106439859614395,
+      "cluster_flip_rate": 0.06779661016949153
+    },
+    {
+      "feature": "M27",
+      "signed_cluster0": 0.06878227171839432,
+      "signed_cluster1": -0.07214009179783006,
+      "importance_abs_max": 0.07214009179783006,
+      "membership_sensitivity": 0.01948236490740501,
+      "cluster_flip_rate": 0.06779661016949153
+    },
+    {
+      "feature": "M28",
+      "signed_cluster0": -0.08081090068309954,
+      "signed_cluster1": 0.08185922306019812,
+      "importance_abs_max": 0.08185922306019812,
+      "membership_sensitivity": 0.008713297662215621,
+      "cluster_flip_rate": 0.01694915254237288
+    },
+    {
+      "feature": "M29",
+      "signed_cluster0": -0.07120463656295731,
+      "signed_cluster1": 0.10524769239865914,
+      "importance_abs_max": 0.10524769239865914,
+      "membership_sensitivity": 0.0034516312987973373,
+      "cluster_flip_rate": 0.03389830508474576
+    }
+  ]
+}

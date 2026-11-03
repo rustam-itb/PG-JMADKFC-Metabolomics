@@ -1,0 +1,17 @@
+{
+  "MTBLS161": {
+    "source_file": "MTBLS161.xlsx",
+    "source_sha256": "ee275f6a7908f1de98d06c416f73c7c1e0097d0ed1fbc4572551f9f8571eb11e",
+    "prepared_npz_sha256": "1236217d9f09be31e2e4fb25e51875aac1d4b163c18d0a97e741b372fb65a865"
+  },
+  "MTBLS404": {
+    "source_file": "MTBLS404.xlsx",
+    "source_sha256": "0ca2012f12363d4c70ff15fc937c08fb7c112fcb4dbd92943ea6a7505ee8b8cf",
+    "prepared_npz_sha256": "72dd028fe032094139d944cdee98f7b6a01a0d0a741d3aa7c8e027f16b3aa61a"
+  },
+  "human_cachexia": {
+    "source_file": "human_cachexia.csv",
+    "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+    "prepared_npz_sha256": "ebc11704f8343dffb4a9b268922ecb64eaaeca8907943cc246ce55c1d9ed1fff"
+  }
+}

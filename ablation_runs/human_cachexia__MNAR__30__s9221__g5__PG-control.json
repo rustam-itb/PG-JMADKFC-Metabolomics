@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 9221,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "d441bfb140cda19a845aec59f5a5ed77d6c1ef017d3120ea16320c6bb874eaef",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.242608481595899,
+  "NMI": 0.17219322303289797,
+  "ACC": 0.7532467532467533,
+  "fuzzy_entropy": 0.753636117053171,
+  "prototype_separation": 1.8570607028206743,
+  "projection_count": 48,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.1260996830320948,
+  "missing_completion_mae": 0.928164408372025,
+  "observed_reconstruction_mse": 0.16259960865117076,
+  "runtime_fit_seconds": 1.065199112999835,
+  "proto_profile_pearson": [
+    0.6655788314352318,
+    0.9134088200004647
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.8219659488311245,
+          "abs_importance": 0.8219659488311245
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7742283066044492,
+          "abs_importance": 0.7742283066044492
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7628973717763187,
+          "abs_importance": 0.7628973717763187
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7373993261473445,
+          "abs_importance": 0.7373993261473445
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.7321387736206942,
+          "abs_importance": 0.7321387736206942
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": -0.7096775929926473,
+          "abs_importance": 0.7096775929926473
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7050836447941761,
+          "abs_importance": 0.7050836447941761
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.69627261409726,
+          "abs_importance": 0.69627261409726
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": -0.674140700719549,
+          "abs_importance": 0.674140700719549
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.6697350894783494,
+          "abs_importance": 0.6697350894783494
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.37390534264368874,
+          "abs_importance": 0.37390534264368874
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.31838800568726255,
+          "abs_importance": 0.31838800568726255
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.3137230567407781,
+          "abs_importance": 0.3137230567407781
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.30545137484496365,
+          "abs_importance": 0.30545137484496365
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.29087797660652914,
+          "abs_importance": 0.29087797660652914
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.2870138597078044,
+          "abs_importance": 0.2870138597078044
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.27891645514692415,
+          "abs_importance": 0.27891645514692415
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": 0.2608631498594879,
+          "abs_importance": 0.2608631498594879
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.25202322439097263,
+          "abs_importance": 0.25202322439097263
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.23304067100686005,
+          "abs_importance": 0.23304067100686005
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

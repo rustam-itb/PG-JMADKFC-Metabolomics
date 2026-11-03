@@ -1,0 +1,519 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 5147,
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "mask_sha256": "ceabc62ca9102a936635502c137ae6a674dd8fef73078d4027fee5ecccbcb21c",
+  "proto_profile_pearson": [
+    0.6914866693862657,
+    0.9496283309912987
+  ],
+  "per_feature": [
+    {
+      "feature": "1,6-Anhydro-beta-D-glucose",
+      "signed_cluster0": -0.44652890841285675,
+      "signed_cluster1": 0.24016639677072268,
+      "importance_abs_max": 0.44652890841285675,
+      "membership_sensitivity": 0.03649912961946835,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "1-Methylnicotinamide",
+      "signed_cluster0": -0.64636878464251,
+      "signed_cluster1": 0.3713792154725041,
+      "importance_abs_max": 0.64636878464251,
+      "membership_sensitivity": 0.0305359630755964,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "2-Aminobutyrate",
+      "signed_cluster0": -0.36779113900829324,
+      "signed_cluster1": 0.1065455411924117,
+      "importance_abs_max": 0.36779113900829324,
+      "membership_sensitivity": 0.029492824582146766,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "2-Hydroxyisobutyrate",
+      "signed_cluster0": -0.7851108547814476,
+      "signed_cluster1": 0.31131473147132094,
+      "importance_abs_max": 0.7851108547814476,
+      "membership_sensitivity": 0.019992799357068606,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "2-Oxoglutarate",
+      "signed_cluster0": -0.5693656271140668,
+      "signed_cluster1": 0.2502758248914739,
+      "importance_abs_max": 0.5693656271140668,
+      "membership_sensitivity": 0.031186848056464708,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "3-Aminoisobutyrate",
+      "signed_cluster0": -0.4200490707070296,
+      "signed_cluster1": 0.20498441998518546,
+      "importance_abs_max": 0.4200490707070296,
+      "membership_sensitivity": 0.030251903683710703,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "3-Hydroxybutyrate",
+      "signed_cluster0": -0.49584991407979884,
+      "signed_cluster1": 0.13097834071733383,
+      "importance_abs_max": 0.49584991407979884,
+      "membership_sensitivity": 0.022822031440079087,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "3-Hydroxyisovalerate",
+      "signed_cluster0": -0.5187513442540469,
+      "signed_cluster1": 0.23204276345972782,
+      "importance_abs_max": 0.5187513442540469,
+      "membership_sensitivity": 0.021260112419204783,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "3-Indoxylsulfate",
+      "signed_cluster0": -0.5412383422262592,
+      "signed_cluster1": 0.19064416876569187,
+      "importance_abs_max": 0.5412383422262592,
+      "membership_sensitivity": 0.025167966055807258,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "4-Hydroxyphenylacetate",
+      "signed_cluster0": -0.5074814617964758,
+      "signed_cluster1": 0.17478776142208935,
+      "importance_abs_max": 0.5074814617964758,
+      "membership_sensitivity": 0.0200738081913993,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Acetate",
+      "signed_cluster0": -0.40609920238956265,
+      "signed_cluster1": 0.13814417832381853,
+      "importance_abs_max": 0.40609920238956265,
+      "membership_sensitivity": 0.026085289351707435,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Acetone",
+      "signed_cluster0": -0.15493412362640796,
+      "signed_cluster1": 0.03976036181636264,
+      "importance_abs_max": 0.15493412362640796,
+      "membership_sensitivity": 0.02145738119008362,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Adipate",
+      "signed_cluster0": -0.46112989340520705,
+      "signed_cluster1": 0.11297069286621256,
+      "importance_abs_max": 0.46112989340520705,
+      "membership_sensitivity": 0.023871863997561363,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Alanine",
+      "signed_cluster0": -0.734015984064705,
+      "signed_cluster1": 0.3170598952190201,
+      "importance_abs_max": 0.734015984064705,
+      "membership_sensitivity": 0.02380105160727504,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Asparagine",
+      "signed_cluster0": -0.7430660676839058,
+      "signed_cluster1": 0.33560364101014,
+      "importance_abs_max": 0.7430660676839058,
+      "membership_sensitivity": 0.03360054857787683,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Betaine",
+      "signed_cluster0": -0.6969030258763551,
+      "signed_cluster1": 0.39219756599178385,
+      "importance_abs_max": 0.6969030258763551,
+      "membership_sensitivity": 0.02845552809565537,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Carnitine",
+      "signed_cluster0": -0.4263282265002416,
+      "signed_cluster1": 0.22074175837490098,
+      "importance_abs_max": 0.4263282265002416,
+      "membership_sensitivity": 0.03168087362749015,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Citrate",
+      "signed_cluster0": -0.69818796425694,
+      "signed_cluster1": 0.3746082576838653,
+      "importance_abs_max": 0.69818796425694,
+      "membership_sensitivity": 0.03288268007977875,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Creatine",
+      "signed_cluster0": -0.6301771480106634,
+      "signed_cluster1": 0.33745158299606604,
+      "importance_abs_max": 0.6301771480106634,
+      "membership_sensitivity": 0.0290618059917469,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Creatinine",
+      "signed_cluster0": -0.8129883149101664,
+      "signed_cluster1": 0.3701163859831801,
+      "importance_abs_max": 0.8129883149101664,
+      "membership_sensitivity": 0.0335807662232941,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Dimethylamine",
+      "signed_cluster0": -0.7462566507002731,
+      "signed_cluster1": 0.3185607430174808,
+      "importance_abs_max": 0.7462566507002731,
+      "membership_sensitivity": 0.019124039065162926,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Ethanolamine",
+      "signed_cluster0": -0.734144983110558,
+      "signed_cluster1": 0.31354284668179433,
+      "importance_abs_max": 0.734144983110558,
+      "membership_sensitivity": 0.016621213729656813,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Formate",
+      "signed_cluster0": -0.5815272511150106,
+      "signed_cluster1": 0.21153128790960496,
+      "importance_abs_max": 0.5815272511150106,
+      "membership_sensitivity": 0.022919844120160716,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Fucose",
+      "signed_cluster0": -0.7028732891703475,
+      "signed_cluster1": 0.327710335721322,
+      "importance_abs_max": 0.7028732891703475,
+      "membership_sensitivity": 0.030990843337689943,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Fumarate",
+      "signed_cluster0": -0.3819668934084643,
+      "signed_cluster1": 0.07416122182022902,
+      "importance_abs_max": 0.3819668934084643,
+      "membership_sensitivity": 0.026761091783841087,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Glucose",
+      "signed_cluster0": -0.4023435808791537,
+      "signed_cluster1": 0.07975661883541457,
+      "importance_abs_max": 0.4023435808791537,
+      "membership_sensitivity": 0.022183406928558812,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Glutamine",
+      "signed_cluster0": -0.7606776473955185,
+      "signed_cluster1": 0.3675835894926116,
+      "importance_abs_max": 0.7606776473955185,
+      "membership_sensitivity": 0.02972536304972753,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Glycine",
+      "signed_cluster0": -0.7084369738366036,
+      "signed_cluster1": 0.35699992075142206,
+      "importance_abs_max": 0.7084369738366036,
+      "membership_sensitivity": 0.037598756864948846,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Glycolate",
+      "signed_cluster0": -0.682267526479836,
+      "signed_cluster1": 0.4370174806994432,
+      "importance_abs_max": 0.682267526479836,
+      "membership_sensitivity": 0.0363931853037566,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Guanidoacetate",
+      "signed_cluster0": -0.6262983258772521,
+      "signed_cluster1": 0.3390450602444577,
+      "importance_abs_max": 0.6262983258772521,
+      "membership_sensitivity": 0.028282516658374217,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Hippurate",
+      "signed_cluster0": -0.6657949017591024,
+      "signed_cluster1": 0.31706610565744786,
+      "importance_abs_max": 0.6657949017591024,
+      "membership_sensitivity": 0.026615850253498184,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Histidine",
+      "signed_cluster0": -0.7947578449054542,
+      "signed_cluster1": 0.3940439772689453,
+      "importance_abs_max": 0.7947578449054542,
+      "membership_sensitivity": 0.04042113096705643,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Hypoxanthine",
+      "signed_cluster0": -0.6311912074531387,
+      "signed_cluster1": 0.31038672649272564,
+      "importance_abs_max": 0.6311912074531387,
+      "membership_sensitivity": 0.027621404842739002,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Isoleucine",
+      "signed_cluster0": -0.5440360504508056,
+      "signed_cluster1": 0.28618946130246026,
+      "importance_abs_max": 0.5440360504508056,
+      "membership_sensitivity": 0.017510262084643725,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Lactate",
+      "signed_cluster0": -0.28230691000459096,
+      "signed_cluster1": 0.04047620060988927,
+      "importance_abs_max": 0.28230691000459096,
+      "membership_sensitivity": 0.02392599320416831,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Leucine",
+      "signed_cluster0": -0.6362214867722937,
+      "signed_cluster1": 0.3372791489134756,
+      "importance_abs_max": 0.6362214867722937,
+      "membership_sensitivity": 0.01719372323371946,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Lysine",
+      "signed_cluster0": -0.5268706912876844,
+      "signed_cluster1": 0.20980494176044218,
+      "importance_abs_max": 0.5268706912876844,
+      "membership_sensitivity": 0.04541641247491798,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Methylamine",
+      "signed_cluster0": -0.6844211763641984,
+      "signed_cluster1": 0.3175734014731573,
+      "importance_abs_max": 0.6844211763641984,
+      "membership_sensitivity": 0.03831059065657008,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Methylguanidine",
+      "signed_cluster0": -0.4628316116732206,
+      "signed_cluster1": 0.2508005527641606,
+      "importance_abs_max": 0.4628316116732206,
+      "membership_sensitivity": 0.026062738718002722,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "N,N-Dimethylglycine",
+      "signed_cluster0": -0.7794551037852345,
+      "signed_cluster1": 0.4080041898111125,
+      "importance_abs_max": 0.7794551037852345,
+      "membership_sensitivity": 0.021450980213192288,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "O-Acetylcarnitine",
+      "signed_cluster0": -0.5878667782868238,
+      "signed_cluster1": 0.2860051251288703,
+      "importance_abs_max": 0.5878667782868238,
+      "membership_sensitivity": 0.03904976610623422,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Pantothenate",
+      "signed_cluster0": -0.42296919977236486,
+      "signed_cluster1": 0.12883255069931687,
+      "importance_abs_max": 0.42296919977236486,
+      "membership_sensitivity": 0.023293882388047995,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Pyroglutamate",
+      "signed_cluster0": -0.6090143566580986,
+      "signed_cluster1": 0.2451885603063014,
+      "importance_abs_max": 0.6090143566580986,
+      "membership_sensitivity": 0.0288197848901864,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Pyruvate",
+      "signed_cluster0": -0.5780079454423346,
+      "signed_cluster1": 0.2651979809060939,
+      "importance_abs_max": 0.5780079454423346,
+      "membership_sensitivity": 0.03711488746264806,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Quinolinate",
+      "signed_cluster0": -0.7174593364246116,
+      "signed_cluster1": 0.31909332805411106,
+      "importance_abs_max": 0.7174593364246116,
+      "membership_sensitivity": 0.02684470959205181,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Serine",
+      "signed_cluster0": -0.6647137873486065,
+      "signed_cluster1": 0.29055713185908905,
+      "importance_abs_max": 0.6647137873486065,
+      "membership_sensitivity": 0.022343507481653726,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Succinate",
+      "signed_cluster0": -0.6013253053901106,
+      "signed_cluster1": 0.2166559874994748,
+      "importance_abs_max": 0.6013253053901106,
+      "membership_sensitivity": 0.02137432141138201,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Sucrose",
+      "signed_cluster0": -0.36025208444322054,
+      "signed_cluster1": 0.11313453949751037,
+      "importance_abs_max": 0.36025208444322054,
+      "membership_sensitivity": 0.018924001543201504,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Tartrate",
+      "signed_cluster0": -0.4741241186535101,
+      "signed_cluster1": 0.17775141164343325,
+      "importance_abs_max": 0.4741241186535101,
+      "membership_sensitivity": 0.026467167490974514,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Taurine",
+      "signed_cluster0": -0.4949044833904408,
+      "signed_cluster1": 0.22906429419003674,
+      "importance_abs_max": 0.4949044833904408,
+      "membership_sensitivity": 0.016928792648541077,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Threonine",
+      "signed_cluster0": -0.728321920258142,
+      "signed_cluster1": 0.33443744688348714,
+      "importance_abs_max": 0.728321920258142,
+      "membership_sensitivity": 0.01891936934281588,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Trigonelline",
+      "signed_cluster0": -0.5086472958304494,
+      "signed_cluster1": 0.2531645927727003,
+      "importance_abs_max": 0.5086472958304494,
+      "membership_sensitivity": 0.026128660705071697,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Trimethylamine N-oxide",
+      "signed_cluster0": -0.5107155791321012,
+      "signed_cluster1": 0.2357809715106255,
+      "importance_abs_max": 0.5107155791321012,
+      "membership_sensitivity": 0.020287558243101623,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Tryptophan",
+      "signed_cluster0": -0.6845554983475522,
+      "signed_cluster1": 0.304125224580368,
+      "importance_abs_max": 0.6845554983475522,
+      "membership_sensitivity": 0.02795227816634929,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Tyrosine",
+      "signed_cluster0": -0.7333603283558802,
+      "signed_cluster1": 0.3979861209607331,
+      "importance_abs_max": 0.7333603283558802,
+      "membership_sensitivity": 0.021677092892318946,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Uracil",
+      "signed_cluster0": -0.4636056800487469,
+      "signed_cluster1": 0.12309313708029182,
+      "importance_abs_max": 0.4636056800487469,
+      "membership_sensitivity": 0.03121950875384107,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Valine",
+      "signed_cluster0": -0.744518167949888,
+      "signed_cluster1": 0.2846809732859424,
+      "importance_abs_max": 0.744518167949888,
+      "membership_sensitivity": 0.02080542437984724,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "Xylose",
+      "signed_cluster0": -0.4445539358428367,
+      "signed_cluster1": 0.1361106076594511,
+      "importance_abs_max": 0.4445539358428367,
+      "membership_sensitivity": 0.017239586812132703,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "cis-Aconitate",
+      "signed_cluster0": -0.7110425029064742,
+      "signed_cluster1": 0.3377085859849367,
+      "importance_abs_max": 0.7110425029064742,
+      "membership_sensitivity": 0.03204863998918241,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "myo-Inositol",
+      "signed_cluster0": -0.614974886512206,
+      "signed_cluster1": 0.22770708907777243,
+      "importance_abs_max": 0.614974886512206,
+      "membership_sensitivity": 0.03443254972716499,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "trans-Aconitate",
+      "signed_cluster0": -0.5503078149253218,
+      "signed_cluster1": 0.17193207314364337,
+      "importance_abs_max": 0.5503078149253218,
+      "membership_sensitivity": 0.022003484961331334,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "pi-Methylhistidine",
+      "signed_cluster0": -0.6316657849143337,
+      "signed_cluster1": 0.384295381244234,
+      "importance_abs_max": 0.6316657849143337,
+      "membership_sensitivity": 0.018857467979410996,
+      "cluster_flip_rate": 0.0
+    },
+    {
+      "feature": "tau-Methylhistidine",
+      "signed_cluster0": -0.6894946837357049,
+      "signed_cluster1": 0.3080645468656955,
+      "importance_abs_max": 0.6894946837357049,
+      "membership_sensitivity": 0.02026487921197459,
+      "cluster_flip_rate": 0.0
+    }
+  ]
+}

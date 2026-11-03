@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.1,
+  "seed": 3109,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "fe32c93b8019df434a756216e9f242ec70a46e0fec6bd1c5f659f9af515182dd",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.1710644490917077,
+  "NMI": 0.11681199160344116,
+  "ACC": 0.7142857142857143,
+  "fuzzy_entropy": 0.7847948924830183,
+  "prototype_separation": 1.8139815606650544,
+  "projection_count": 61,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8365464940191282,
+  "missing_completion_mae": 0.6956706894261563,
+  "observed_reconstruction_mse": 0.19633389537559243,
+  "runtime_fit_seconds": 0.9170369419989584,
+  "proto_profile_pearson": [
+    0.8657490957540813,
+    0.9508571718820938
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7663255616637349,
+          "abs_importance": 0.7663255616637349
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7525921799770832,
+          "abs_importance": 0.7525921799770832
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7524590323303916,
+          "abs_importance": 0.7524590323303916
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.7422757505296279,
+          "abs_importance": 0.7422757505296279
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7422204424153989,
+          "abs_importance": 0.7422204424153989
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7396048685499979,
+          "abs_importance": 0.7396048685499979
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7317361994662771,
+          "abs_importance": 0.7317361994662771
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7273320301972388,
+          "abs_importance": 0.7273320301972388
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.7225206251959638,
+          "abs_importance": 0.7225206251959638
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7161532209453094,
+          "abs_importance": 0.7161532209453094
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.48114810285328447,
+          "abs_importance": 0.48114810285328447
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.4722797437500683,
+          "abs_importance": 0.4722797437500683
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.4592084515694715,
+          "abs_importance": 0.4592084515694715
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.4571151195197161,
+          "abs_importance": 0.4571151195197161
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": 0.44979011966554394,
+          "abs_importance": 0.44979011966554394
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.44482623914970654,
+          "abs_importance": 0.44482623914970654
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.4432123801373239,
+          "abs_importance": 0.4432123801373239
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.442561521810572,
+          "abs_importance": 0.442561521810572
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.43708966600661453,
+          "abs_importance": 0.43708966600661453
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.4367182207615099,
+          "abs_importance": 0.4367182207615099
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 6163,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "492448e493e1f3be1973bba83307ae39fe77869d9849b6527c50ee5e884efcd6",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.17011703111141113,
+  "NMI": 0.11435326594022632,
+  "ACC": 0.7142857142857143,
+  "fuzzy_entropy": 0.7610315801488007,
+  "prototype_separation": 1.7297451783758087,
+  "projection_count": 46,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.7468816190760659,
+  "missing_completion_mae": 0.5850339196755602,
+  "observed_reconstruction_mse": 0.15943763906946143,
+  "runtime_fit_seconds": 1.0862409110013687,
+  "proto_profile_pearson": [
+    0.8476928107048819,
+    0.8687621304332301
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.8304025167988055,
+          "abs_importance": 0.8304025167988055
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.8103761907178334,
+          "abs_importance": 0.8103761907178334
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.8081933381649453,
+          "abs_importance": 0.8081933381649453
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.8023574565035199,
+          "abs_importance": 0.8023574565035199
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7778475046587544,
+          "abs_importance": 0.7778475046587544
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7730560258045784,
+          "abs_importance": 0.7730560258045784
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.7658839276077227,
+          "abs_importance": 0.7658839276077227
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7636664954262915,
+          "abs_importance": 0.7636664954262915
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": -0.7441231760720372,
+          "abs_importance": 0.7441231760720372
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7385725181915976,
+          "abs_importance": 0.7385725181915976
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.5367178920054664,
+          "abs_importance": 0.5367178920054664
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.5099140964098444,
+          "abs_importance": 0.5099140964098444
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.5058884508855918,
+          "abs_importance": 0.5058884508855918
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.48543510772238063,
+          "abs_importance": 0.48543510772238063
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.47822671831229824,
+          "abs_importance": 0.47822671831229824
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.47734941301099326,
+          "abs_importance": 0.47734941301099326
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": 0.4651658659067924,
+          "abs_importance": 0.4651658659067924
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.4596285504001914,
+          "abs_importance": 0.4596285504001914
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.45921312626164923,
+          "abs_importance": 0.45921312626164923
+        },
+        {
+          "feature": "Serine",
+          "signed_contrast": 0.45640999051671516,
+          "abs_importance": 0.45640999051671516
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

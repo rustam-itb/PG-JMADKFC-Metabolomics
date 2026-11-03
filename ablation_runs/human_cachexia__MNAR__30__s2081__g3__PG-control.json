@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 2081,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "9cfa58405b4e708198d575b80122453e360c82bf290f08e315172a53d70d3737",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.12859006549144808,
+  "NMI": 0.08576045967053397,
+  "ACC": 0.6883116883116883,
+  "fuzzy_entropy": 0.80094051111358,
+  "prototype_separation": 1.5416619672172174,
+  "projection_count": 28,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8295906913679774,
+  "missing_completion_mae": 0.655076270921962,
+  "observed_reconstruction_mse": 0.11991699969853072,
+  "runtime_fit_seconds": 1.0663578650001,
+  "proto_profile_pearson": [
+    0.8746723491945827,
+    0.8508331361440906
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.48399164661146366,
+          "abs_importance": 0.48399164661146366
+        },
+        {
+          "feature": "Glycine",
+          "signed_contrast": 0.43077250504573,
+          "abs_importance": 0.43077250504573
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.427176491536821,
+          "abs_importance": 0.427176491536821
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.4167263696830429,
+          "abs_importance": 0.4167263696830429
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.4128289309516582,
+          "abs_importance": 0.4128289309516582
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.4099692975517782,
+          "abs_importance": 0.4099692975517782
+        },
+        {
+          "feature": "trans-Aconitate",
+          "signed_contrast": 0.3878223180048035,
+          "abs_importance": 0.3878223180048035
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.38678983150892615,
+          "abs_importance": 0.38678983150892615
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.38587274380685765,
+          "abs_importance": 0.38587274380685765
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.379461394272328,
+          "abs_importance": 0.379461394272328
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7928430160407872,
+          "abs_importance": 0.7928430160407872
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7715191025514067,
+          "abs_importance": 0.7715191025514067
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7562850617578879,
+          "abs_importance": 0.7562850617578879
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.7515154003471672,
+          "abs_importance": 0.7515154003471672
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7421215276064169,
+          "abs_importance": 0.7421215276064169
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.737407262268047,
+          "abs_importance": 0.737407262268047
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7358174433856978,
+          "abs_importance": 0.7358174433856978
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7345899574080011,
+          "abs_importance": 0.7345899574080011
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7310802646253101,
+          "abs_importance": 0.7310802646253101
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7310749789643618,
+          "abs_importance": 0.7310749789643618
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

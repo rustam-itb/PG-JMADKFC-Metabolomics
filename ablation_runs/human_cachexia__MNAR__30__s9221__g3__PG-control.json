@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 9221,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "f032a312f77ed431d90640658118c51be32d1b56efe3339dd2afd9c64aaa10c5",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19291467493538111,
+  "NMI": 0.1313180875406162,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.8199226745463991,
+  "prototype_separation": 1.9868997327799267,
+  "projection_count": 55,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8584727231237558,
+  "missing_completion_mae": 0.6892811192112911,
+  "observed_reconstruction_mse": 0.14850782205150506,
+  "runtime_fit_seconds": 1.028225719999682,
+  "proto_profile_pearson": [
+    0.8005501338848051,
+    0.8473407586226711
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.729821338858297,
+          "abs_importance": 0.729821338858297
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.6852063544871388,
+          "abs_importance": 0.6852063544871388
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.6748953500433749,
+          "abs_importance": 0.6748953500433749
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.6741517611031506,
+          "abs_importance": 0.6741517611031506
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.6695992321485251,
+          "abs_importance": 0.6695992321485251
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.6635006303046979,
+          "abs_importance": 0.6635006303046979
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": -0.6423343700087278,
+          "abs_importance": 0.6423343700087278
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": -0.6416605376056715,
+          "abs_importance": 0.6416605376056715
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.6392538471996104,
+          "abs_importance": 0.6392538471996104
+        },
+        {
+          "feature": "Glycine",
+          "signed_contrast": -0.6385608480653115,
+          "abs_importance": 0.6385608480653115
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.4125428582529203,
+          "abs_importance": 0.4125428582529203
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.37079690333195287,
+          "abs_importance": 0.37079690333195287
+        },
+        {
+          "feature": "Glycine",
+          "signed_contrast": 0.36962819220707316,
+          "abs_importance": 0.36962819220707316
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.3640856570433924,
+          "abs_importance": 0.3640856570433924
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.36194894170792136,
+          "abs_importance": 0.36194894170792136
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.34828268119641975,
+          "abs_importance": 0.34828268119641975
+        },
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.33121361489225626,
+          "abs_importance": 0.33121361489225626
+        },
+        {
+          "feature": "Succinate",
+          "signed_contrast": 0.3311337286465884,
+          "abs_importance": 0.3311337286465884
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.3236720397182897,
+          "abs_importance": 0.3236720397182897
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": 0.32242152112845757,
+          "abs_importance": 0.32242152112845757
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

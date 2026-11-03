@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 2081,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "0c9db19335ce18283c5131b2cfcf5b4474b910d90a71ffdd789360c8622b285b",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.21707633766241083,
+  "NMI": 0.1504600731085426,
+  "ACC": 0.7402597402597403,
+  "fuzzy_entropy": 0.7935074695742663,
+  "prototype_separation": 1.5271689697252815,
+  "projection_count": 32,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8835501603517741,
+  "missing_completion_mae": 0.7161522384224717,
+  "observed_reconstruction_mse": 0.12846989879194512,
+  "runtime_fit_seconds": 0.993937430999722,
+  "proto_profile_pearson": [
+    0.7880934192734375,
+    0.8368496184290382
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.41692168202277813,
+          "abs_importance": 0.41692168202277813
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.40179920885555687,
+          "abs_importance": 0.40179920885555687
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.39773055744427904,
+          "abs_importance": 0.39773055744427904
+        },
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.3746175439668698,
+          "abs_importance": 0.3746175439668698
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.373642549708158,
+          "abs_importance": 0.373642549708158
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.37334422979750326,
+          "abs_importance": 0.37334422979750326
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.35288106038087347,
+          "abs_importance": 0.35288106038087347
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.34753861407616726,
+          "abs_importance": 0.34753861407616726
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.3343186047800793,
+          "abs_importance": 0.3343186047800793
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.33275745408928076,
+          "abs_importance": 0.33275745408928076
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.8222091567031916,
+          "abs_importance": 0.8222091567031916
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7952570860129081,
+          "abs_importance": 0.7952570860129081
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7828584407987125,
+          "abs_importance": 0.7828584407987125
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.7752526889308828,
+          "abs_importance": 0.7752526889308828
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7705810730266373,
+          "abs_importance": 0.7705810730266373
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.7654580923833936,
+          "abs_importance": 0.7654580923833936
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7599265767606965,
+          "abs_importance": 0.7599265767606965
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7278935977886848,
+          "abs_importance": 0.7278935977886848
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": -0.7206695404202914,
+          "abs_importance": 0.7206695404202914
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.7187079017154998,
+          "abs_importance": 0.7187079017154998
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

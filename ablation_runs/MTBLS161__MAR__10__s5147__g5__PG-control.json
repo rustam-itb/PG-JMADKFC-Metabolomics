@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "MTBLS161",
+  "mechanism": "MAR",
+  "rate": 0.1,
+  "seed": 5147,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "f3756c440ab3ba3d244e24d7be25eb7065f8df26f8ef1472e9100ae099d8f14c",
+  "source_sha256": "ee275f6a7908f1de98d06c416f73c7c1e0097d0ed1fbc4572551f9f8571eb11e",
+  "n_samples": 59,
+  "n_features": 29,
+  "ARI": 0.16434847918966727,
+  "NMI": 0.13008343788675997,
+  "ACC": 0.711864406779661,
+  "fuzzy_entropy": 0.842046972979091,
+  "prototype_separation": 1.1899832822653604,
+  "projection_count": 74,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.1429495870645905,
+  "missing_completion_mae": 0.8328072365904006,
+  "observed_reconstruction_mse": 0.06157306786730602,
+  "runtime_fit_seconds": 0.9305586579994269,
+  "proto_profile_pearson": [
+    0.7835254401184798,
+    0.9753697267369761
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "M19",
+          "signed_contrast": -0.3962640913902674,
+          "abs_importance": 0.3962640913902674
+        },
+        {
+          "feature": "M17",
+          "signed_contrast": -0.35733349665898356,
+          "abs_importance": 0.35733349665898356
+        },
+        {
+          "feature": "M12",
+          "signed_contrast": 0.3329340576069059,
+          "abs_importance": 0.3329340576069059
+        },
+        {
+          "feature": "M25",
+          "signed_contrast": -0.3266331660665218,
+          "abs_importance": 0.3266331660665218
+        },
+        {
+          "feature": "M1",
+          "signed_contrast": -0.29255496682831816,
+          "abs_importance": 0.29255496682831816
+        },
+        {
+          "feature": "M15",
+          "signed_contrast": -0.29063537092067654,
+          "abs_importance": 0.29063537092067654
+        },
+        {
+          "feature": "M22",
+          "signed_contrast": -0.2768594433983628,
+          "abs_importance": 0.2768594433983628
+        },
+        {
+          "feature": "M4",
+          "signed_contrast": -0.23660930387994525,
+          "abs_importance": 0.23660930387994525
+        },
+        {
+          "feature": "M13",
+          "signed_contrast": -0.2067546156237899,
+          "abs_importance": 0.2067546156237899
+        },
+        {
+          "feature": "M21",
+          "signed_contrast": -0.18673741371431857,
+          "abs_importance": 0.18673741371431857
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "M17",
+          "signed_contrast": 0.7587616867142082,
+          "abs_importance": 0.7587616867142082
+        },
+        {
+          "feature": "M19",
+          "signed_contrast": 0.7551953613260469,
+          "abs_importance": 0.7551953613260469
+        },
+        {
+          "feature": "M25",
+          "signed_contrast": 0.6577213067151625,
+          "abs_importance": 0.6577213067151625
+        },
+        {
+          "feature": "M15",
+          "signed_contrast": 0.6029669121496822,
+          "abs_importance": 0.6029669121496822
+        },
+        {
+          "feature": "M1",
+          "signed_contrast": 0.5506169113299362,
+          "abs_importance": 0.5506169113299362
+        },
+        {
+          "feature": "M22",
+          "signed_contrast": 0.5171216148124411,
+          "abs_importance": 0.5171216148124411
+        },
+        {
+          "feature": "M12",
+          "signed_contrast": -0.492177377097195,
+          "abs_importance": 0.492177377097195
+        },
+        {
+          "feature": "M13",
+          "signed_contrast": 0.4560150996388428,
+          "abs_importance": 0.4560150996388428
+        },
+        {
+          "feature": "M4",
+          "signed_contrast": 0.424526115576432,
+          "abs_importance": 0.424526115576432
+        },
+        {
+          "feature": "M23",
+          "signed_contrast": 0.38579612817938297,
+          "abs_importance": 0.38579612817938297
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

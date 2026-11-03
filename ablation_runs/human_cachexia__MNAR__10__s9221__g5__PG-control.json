@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.1,
+  "seed": 9221,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "10c44f2c7c50c053a1802d64999b860e8b8f1ca03d3f7944c74d70735df4ebd5",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19291467493538111,
+  "NMI": 0.1313180875406162,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.7308662320264165,
+  "prototype_separation": 1.7985811149627853,
+  "projection_count": 37,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8724992609071365,
+  "missing_completion_mae": 0.7054821049000969,
+  "observed_reconstruction_mse": 0.18651988006528059,
+  "runtime_fit_seconds": 0.8992754920000152,
+  "proto_profile_pearson": [
+    0.9314494459324287,
+    0.9097738292163411
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.9207467444840719,
+          "abs_importance": 0.9207467444840719
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.8556978862435405,
+          "abs_importance": 0.8556978862435405
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.8522296379232719,
+          "abs_importance": 0.8522296379232719
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.8471271442464984,
+          "abs_importance": 0.8471271442464984
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.8415503142923162,
+          "abs_importance": 0.8415503142923162
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": -0.8410965767695163,
+          "abs_importance": 0.8410965767695163
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.8287089301050206,
+          "abs_importance": 0.8287089301050206
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.8282512536272039,
+          "abs_importance": 0.8282512536272039
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.8102298619896803,
+          "abs_importance": 0.8102298619896803
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.8014434902895184,
+          "abs_importance": 0.8014434902895184
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.4625497967574318,
+          "abs_importance": 0.4625497967574318
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.4544693844925881,
+          "abs_importance": 0.4544693844925881
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.45379317275394193,
+          "abs_importance": 0.45379317275394193
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.45215655958339185,
+          "abs_importance": 0.45215655958339185
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.44207012046407773,
+          "abs_importance": 0.44207012046407773
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.4372208005956469,
+          "abs_importance": 0.4372208005956469
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.43450600377197107,
+          "abs_importance": 0.43450600377197107
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.41989153321075523,
+          "abs_importance": 0.41989153321075523
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.4167939479503094,
+          "abs_importance": 0.4167939479503094
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": 0.41242459832626444,
+          "abs_importance": 0.41242459832626444
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

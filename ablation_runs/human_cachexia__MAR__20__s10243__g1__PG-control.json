@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MAR",
+  "rate": 0.2,
+  "seed": 10243,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "7edd6b4cc4281060ef74dfc5380a642fd5eaf1c83f90d637464db08191af5570",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.15133265890041278,
+  "NMI": 0.14216097913288908,
+  "ACC": 0.7012987012987013,
+  "fuzzy_entropy": 0.8100811347889524,
+  "prototype_separation": 1.7306878661944103,
+  "projection_count": 28,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8484247868384218,
+  "missing_completion_mae": 0.6524084692898858,
+  "observed_reconstruction_mse": 0.21148150243958241,
+  "runtime_fit_seconds": 0.9562691829996766,
+  "proto_profile_pearson": [
+    0.809061078385362,
+    0.9295692830124767
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.5782741675692198,
+          "abs_importance": 0.5782741675692198
+        },
+        {
+          "feature": "trans-Aconitate",
+          "signed_contrast": -0.5725950566767636,
+          "abs_importance": 0.5725950566767636
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.5422060727463678,
+          "abs_importance": 0.5422060727463678
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.5413019243941962,
+          "abs_importance": 0.5413019243941962
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.5368327830732551,
+          "abs_importance": 0.5368327830732551
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": -0.5322794788040255,
+          "abs_importance": 0.5322794788040255
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.5313212977697483,
+          "abs_importance": 0.5313212977697483
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": -0.5267179049297868,
+          "abs_importance": 0.5267179049297868
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.5251830695121308,
+          "abs_importance": 0.5251830695121308
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.5171480676516411,
+          "abs_importance": 0.5171480676516411
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.6374321984065858,
+          "abs_importance": 0.6374321984065858
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": 0.6282153662170151,
+          "abs_importance": 0.6282153662170151
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": 0.6157442739103222,
+          "abs_importance": 0.6157442739103222
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": 0.6115050258910015,
+          "abs_importance": 0.6115050258910015
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": 0.608764071470535,
+          "abs_importance": 0.608764071470535
+        },
+        {
+          "feature": "3-Hydroxyisovalerate",
+          "signed_contrast": 0.5940461600238988,
+          "abs_importance": 0.5940461600238988
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.5923765015051281,
+          "abs_importance": 0.5923765015051281
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": 0.5922783710260192,
+          "abs_importance": 0.5922783710260192
+        },
+        {
+          "feature": "trans-Aconitate",
+          "signed_contrast": 0.5884207493004607,
+          "abs_importance": 0.5884207493004607
+        },
+        {
+          "feature": "4-Hydroxyphenylacetate",
+          "signed_contrast": 0.5788718282910497,
+          "abs_importance": 0.5788718282910497
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

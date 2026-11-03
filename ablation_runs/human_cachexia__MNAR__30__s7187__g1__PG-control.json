@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 7187,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "ddd5681179763af11d374c195b3ceb05a9239921515c7bf78dd316b33177c3d6",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.14867736766648862,
+  "NMI": 0.09924971242550107,
+  "ACC": 0.7012987012987013,
+  "fuzzy_entropy": 0.7519135743871858,
+  "prototype_separation": 2.1049275570648756,
+  "projection_count": 29,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8257673208846972,
+  "missing_completion_mae": 0.6267133633149021,
+  "observed_reconstruction_mse": 0.14413387461988258,
+  "runtime_fit_seconds": 0.984197593999852,
+  "proto_profile_pearson": [
+    0.8100587966475697,
+    0.864628616206101
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.9026535116333421,
+          "abs_importance": 0.9026535116333421
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.8758672279617891,
+          "abs_importance": 0.8758672279617891
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.8703202410562971,
+          "abs_importance": 0.8703202410562971
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.8663046234168404,
+          "abs_importance": 0.8663046234168404
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": -0.7943790528462535,
+          "abs_importance": 0.7943790528462535
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.783772875182617,
+          "abs_importance": 0.783772875182617
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.7751450979032539,
+          "abs_importance": 0.7751450979032539
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7720383215207212,
+          "abs_importance": 0.7720383215207212
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7674301481372965,
+          "abs_importance": 0.7674301481372965
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7628632851315036,
+          "abs_importance": 0.7628632851315036
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "trans-Aconitate",
+          "signed_contrast": 0.47589272531025223,
+          "abs_importance": 0.47589272531025223
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.46403789606639373,
+          "abs_importance": 0.46403789606639373
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": 0.4520095909200954,
+          "abs_importance": 0.4520095909200954
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.44662610959159676,
+          "abs_importance": 0.44662610959159676
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.4449646026723987,
+          "abs_importance": 0.4449646026723987
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.44407277864405453,
+          "abs_importance": 0.44407277864405453
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.4398929219599726,
+          "abs_importance": 0.4398929219599726
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.43586706242388934,
+          "abs_importance": 0.43586706242388934
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.42909349936452096,
+          "abs_importance": 0.42909349936452096
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.4265385821796767,
+          "abs_importance": 0.4265385821796767
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

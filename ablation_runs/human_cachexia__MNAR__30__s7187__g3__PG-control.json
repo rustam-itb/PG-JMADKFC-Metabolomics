@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 7187,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "03db5b3cfe5f034cc6fc9e8e1fe87ab14f2c5d9ae90a8f0774ef60a0fbcd48ad",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.242608481595899,
+  "NMI": 0.17219322303289797,
+  "ACC": 0.7532467532467533,
+  "fuzzy_entropy": 0.8000755128427253,
+  "prototype_separation": 2.0242692591981197,
+  "projection_count": 18,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8420795765370579,
+  "missing_completion_mae": 0.6655299246040631,
+  "observed_reconstruction_mse": 0.13601824653404718,
+  "runtime_fit_seconds": 0.9649927919999755,
+  "proto_profile_pearson": [
+    0.7085499225906056,
+    0.83912856449422
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.8352904678623235,
+          "abs_importance": 0.8352904678623235
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.8277039765492413,
+          "abs_importance": 0.8277039765492413
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7777842314535361,
+          "abs_importance": 0.7777842314535361
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.7772572206713493,
+          "abs_importance": 0.7772572206713493
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7459004249766618,
+          "abs_importance": 0.7459004249766618
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": -0.7132944130538938,
+          "abs_importance": 0.7132944130538938
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.708274356359371,
+          "abs_importance": 0.708274356359371
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7074757179668503,
+          "abs_importance": 0.7074757179668503
+        },
+        {
+          "feature": "Hypoxanthine",
+          "signed_contrast": -0.701857748868726,
+          "abs_importance": 0.701857748868726
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.6998518056225465,
+          "abs_importance": 0.6998518056225465
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.3862311358534863,
+          "abs_importance": 0.3862311358534863
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.38598843514342707,
+          "abs_importance": 0.38598843514342707
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.3691129416823279,
+          "abs_importance": 0.3691129416823279
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": 0.36507810547115255,
+          "abs_importance": 0.36507810547115255
+        },
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.34831475163473197,
+          "abs_importance": 0.34831475163473197
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.3443773191688933,
+          "abs_importance": 0.3443773191688933
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.3427637756838368,
+          "abs_importance": 0.3427637756838368
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.33847229404609097,
+          "abs_importance": 0.33847229404609097
+        },
+        {
+          "feature": "2-Oxoglutarate",
+          "signed_contrast": 0.3186944038682112,
+          "abs_importance": 0.3186944038682112
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.31695682366406963,
+          "abs_importance": 0.31695682366406963
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MAR",
+  "rate": 0.2,
+  "seed": 6163,
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "mask_sha256": "0bea1d6775c7f6139e9b9a1923469d09c79bbdbb7721aa0681a6bc54d9807b5e",
+  "n_missing": 970,
+  "rows": [
+    {
+      "method": "Mean",
+      "RMSE": 1.1303544357456985,
+      "MAE": 0.9005935108626357,
+      "runtime_seconds": 0.00014491799993265886
+    },
+    {
+      "method": "Median",
+      "RMSE": 1.151295137695404,
+      "MAE": 0.9124864037939584,
+      "runtime_seconds": 0.00041770999996515457
+    },
+    {
+      "method": "KNN",
+      "RMSE": 0.8388511869965659,
+      "MAE": 0.6183353837057992,
+      "runtime_seconds": 0.010228267999991658
+    },
+    {
+      "method": "MICE",
+      "RMSE": 0.7758560524146367,
+      "MAE": 0.5759135167683506,
+      "runtime_seconds": 1.3351118869995844
+    },
+    {
+      "method": "IterativeSVD",
+      "RMSE": 0.8576931452292248,
+      "MAE": 0.6370623169985277,
+      "runtime_seconds": 0.07960983500015573
+    }
+  ]
+}

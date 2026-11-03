@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MAR",
+  "rate": 0.1,
+  "seed": 3109,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "36de175ab8a94542d48e353297fbfc25a52ce57c5e4ab96376da46fd2febdb7c",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.13005820068718885,
+  "NMI": 0.09327411133918263,
+  "ACC": 0.6883116883116883,
+  "fuzzy_entropy": 0.7565505421372611,
+  "prototype_separation": 1.9842943127106192,
+  "projection_count": 44,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.0072387134755438,
+  "missing_completion_mae": 0.7578219077356384,
+  "observed_reconstruction_mse": 0.18457175550616944,
+  "runtime_fit_seconds": 1.2239313030004269,
+  "proto_profile_pearson": [
+    0.8628819737193649,
+    0.9381216074335867
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7913383486968901,
+          "abs_importance": 0.7913383486968901
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7702890448518621,
+          "abs_importance": 0.7702890448518621
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7661047920186095,
+          "abs_importance": 0.7661047920186095
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7360907480210406,
+          "abs_importance": 0.7360907480210406
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7301426978211345,
+          "abs_importance": 0.7301426978211345
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7227153250350169,
+          "abs_importance": 0.7227153250350169
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": -0.7080654718247409,
+          "abs_importance": 0.7080654718247409
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7061419767159105,
+          "abs_importance": 0.7061419767159105
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.692493204450409,
+          "abs_importance": 0.692493204450409
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.6915720080244309,
+          "abs_importance": 0.6915720080244309
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Valine",
+          "signed_contrast": 0.7056945792684935,
+          "abs_importance": 0.7056945792684935
+        },
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.6667160152113947,
+          "abs_importance": 0.6667160152113947
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.6434359646517026,
+          "abs_importance": 0.6434359646517026
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.6215866380425366,
+          "abs_importance": 0.6215866380425366
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.6096624629227976,
+          "abs_importance": 0.6096624629227976
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.6061006104857061,
+          "abs_importance": 0.6061006104857061
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.5981158288688152,
+          "abs_importance": 0.5981158288688152
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.5925203896242472,
+          "abs_importance": 0.5925203896242472
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.5907939675136611,
+          "abs_importance": 0.5907939675136611
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.5907471293722136,
+          "abs_importance": 0.5907471293722136
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

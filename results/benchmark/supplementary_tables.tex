@@ -1,0 +1,151 @@
+% Supplementary result tables for PG-JMADKFC revised manuscript.
+% These summarize the same 2,160 completed fits, excluding the prior submission method.
+\section*{Supplementary Tables: Additional Performance Metrics and Runtime}
+
+\begin{table*}[t]
+\centering
+\caption{Normalized mutual information (NMI): mean $\pm$ sample SD from 60 fits per method and dataset (six missingness scenarios $\times$ ten seeds).}
+\label{tab:supp_nmi}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lccc}
+\toprule
+Method & MTBLS161 & MTBLS404 & Human Cachexia \\
+\midrule
+PG-JMADKFC & 0.1181 $\pm$ 0.0582 & 0.0241 $\pm$ 0.0143 & 0.1169 $\pm$ 0.0311 \\
+DFCM & 0.0813 $\pm$ 0.0552 & 0.0449 $\pm$ 0.0286 & 0.1119 $\pm$ 0.0268 \\
+VKFCM-K-LP-PDS & 0.1241 $\pm$ 0.0354 & 0.0418 $\pm$ 0.0069 & 0.1064 $\pm$ 0.0134 \\
+FCM-KNN & 0.0731 $\pm$ 0.0244 & 0.0420 $\pm$ 0.0082 & 0.1014 $\pm$ 0.0108 \\
+FCM-Median & 0.0697 $\pm$ 0.0245 & 0.0431 $\pm$ 0.0057 & 0.1097 $\pm$ 0.0131 \\
+DEC & 0.0700 $\pm$ 0.0416 & 0.0526 $\pm$ 0.0169 & 0.1244 $\pm$ 0.0270 \\
+KFCM & 0.0720 $\pm$ 0.0236 & 0.0461 $\pm$ 0.0056 & 0.1091 $\pm$ 0.0132 \\
+FCM-MICE & 0.0604 $\pm$ 0.0169 & 0.0388 $\pm$ 0.0061 & 0.1042 $\pm$ 0.0117 \\
+FCM-PDS & 0.0725 $\pm$ 0.0232 & 0.0467 $\pm$ 0.0081 & 0.1080 $\pm$ 0.0135 \\
+FCM-OCS & 0.0700 $\pm$ 0.0238 & 0.0422 $\pm$ 0.0058 & 0.1090 $\pm$ 0.0133 \\
+FCM-Mean & 0.0697 $\pm$ 0.0240 & 0.0423 $\pm$ 0.0058 & 0.1111 $\pm$ 0.0153 \\
+VKFCM-K-LP-OCS & 0.1101 $\pm$ 0.0430 & 0.0400 $\pm$ 0.0064 & 0.1047 $\pm$ 0.0195 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Clustering accuracy (ACC): mean $\pm$ sample SD from 60 fits per method and dataset (six missingness scenarios $\times$ ten seeds).}
+\label{tab:supp_acc}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lccc}
+\toprule
+Method & MTBLS161 & MTBLS404 & Human Cachexia \\
+\midrule
+PG-JMADKFC & 0.6975 $\pm$ 0.0497 & 0.5801 $\pm$ 0.0268 & 0.7056 $\pm$ 0.0270 \\
+DFCM & 0.6492 $\pm$ 0.0680 & 0.6188 $\pm$ 0.0426 & 0.6942 $\pm$ 0.0302 \\
+VKFCM-K-LP-PDS & 0.6972 $\pm$ 0.0328 & 0.6204 $\pm$ 0.0146 & 0.6972 $\pm$ 0.0097 \\
+FCM-KNN & 0.6497 $\pm$ 0.0222 & 0.6261 $\pm$ 0.0108 & 0.6948 $\pm$ 0.0081 \\
+FCM-Median & 0.6475 $\pm$ 0.0243 & 0.6261 $\pm$ 0.0080 & 0.6978 $\pm$ 0.0112 \\
+DEC & 0.6353 $\pm$ 0.0375 & 0.6339 $\pm$ 0.0288 & 0.7039 $\pm$ 0.0335 \\
+KFCM & 0.6508 $\pm$ 0.0246 & 0.6284 $\pm$ 0.0076 & 0.6974 $\pm$ 0.0099 \\
+FCM-MICE & 0.6381 $\pm$ 0.0187 & 0.6218 $\pm$ 0.0083 & 0.6963 $\pm$ 0.0087 \\
+FCM-PDS & 0.6489 $\pm$ 0.0216 & 0.6308 $\pm$ 0.0111 & 0.6983 $\pm$ 0.0094 \\
+FCM-OCS & 0.6483 $\pm$ 0.0241 & 0.6250 $\pm$ 0.0078 & 0.6991 $\pm$ 0.0093 \\
+FCM-Mean & 0.6480 $\pm$ 0.0242 & 0.6251 $\pm$ 0.0078 & 0.6989 $\pm$ 0.0125 \\
+VKFCM-K-LP-OCS & 0.6833 $\pm$ 0.0426 & 0.6172 $\pm$ 0.0124 & 0.6913 $\pm$ 0.0205 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Recorded fit runtime (seconds): mean $\pm$ sample SD from 60 fits per method and dataset (six missingness scenarios $\times$ ten seeds).}
+\label{tab:supp_runtime}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lccc}
+\toprule
+Method & MTBLS161 & MTBLS404 & Human Cachexia \\
+\midrule
+PG-JMADKFC & 1.007 $\pm$ 0.286 & 2.237 $\pm$ 0.259 & 1.013 $\pm$ 0.099 \\
+DFCM & 0.533 $\pm$ 0.267 & 0.684 $\pm$ 0.114 & 0.434 $\pm$ 0.071 \\
+VKFCM-K-LP-PDS & 0.040 $\pm$ 0.020 & 0.153 $\pm$ 0.092 & 0.021 $\pm$ 0.010 \\
+FCM-KNN & 0.008 $\pm$ 0.002 & 0.038 $\pm$ 0.010 & 0.012 $\pm$ 0.003 \\
+FCM-Median & 0.008 $\pm$ 0.005 & 0.018 $\pm$ 0.012 & 0.003 $\pm$ 0.002 \\
+DEC & 0.174 $\pm$ 0.172 & 0.339 $\pm$ 0.293 & 0.155 $\pm$ 0.129 \\
+KFCM & 0.013 $\pm$ 0.007 & 0.068 $\pm$ 0.067 & 0.007 $\pm$ 0.006 \\
+FCM-MICE & 0.327 $\pm$ 0.063 & 4.666 $\pm$ 0.640 & 1.034 $\pm$ 0.229 \\
+FCM-PDS & 0.008 $\pm$ 0.002 & 0.037 $\pm$ 0.020 & 0.005 $\pm$ 0.001 \\
+FCM-OCS & 0.013 $\pm$ 0.010 & 0.076 $\pm$ 0.279 & 0.005 $\pm$ 0.002 \\
+FCM-Mean & 0.008 $\pm$ 0.009 & 0.017 $\pm$ 0.011 & 0.003 $\pm$ 0.001 \\
+VKFCM-K-LP-OCS & 0.041 $\pm$ 0.016 & 0.315 $\pm$ 0.643 & 0.129 $\pm$ 0.095 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+
+
+% =========================================================
+% Additional experiments: aligned with the revised Section 5
+% =========================================================
+\begin{table*}[t]
+\centering
+\caption{Component-ablation ARI by dataset (mean $\pm$ sample SD over 60 fits each). These are one-component-at-a-time variants of PG-JMADKFC, not separate proposed methods.}
+\label{tab:supp_component_sd}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccc}
+\toprule
+Configuration & MTBLS161 & MTBLS404 & Human Cachexia \\
+\midrule
+PG-JMADKFC (complete) & 0.1511 $\pm$ 0.0777 & 0.0231 $\pm$ 0.0161 & 0.1595 $\pm$ 0.0443 \\
+Global-bandwidth kernel & 0.1145 $\pm$ 0.0609 & 0.0185 $\pm$ 0.0213 & 0.0921 $\pm$ 0.0515 \\
+Zero-target reconstruction & 0.1279 $\pm$ 0.0846 & 0.0233 $\pm$ 0.0197 & 0.1290 $\pm$ 0.0354 \\
+Without clustering gradient & 0.1007 $\pm$ 0.0591 & 0.0344 $\pm$ 0.0144 & 0.1775 $\pm$ 0.0367 \\
+Without prototype completion & 0.1495 $\pm$ 0.0773 & 0.0232 $\pm$ 0.0168 & 0.1578 $\pm$ 0.0471 \\
+Without mask-input channel & 0.1547 $\pm$ 0.0716 & 0.0229 $\pm$ 0.0177 & 0.1578 $\pm$ 0.0432 \\
+Shuffled mask-input channel & 0.1503 $\pm$ 0.0709 & 0.0260 $\pm$ 0.0183 & 0.1613 $\pm$ 0.0468 \\
+Without gradient guard & 0.1063 $\pm$ 0.0655 & 0.0845 $\pm$ 0.0213 & 0.1809 $\pm$ 0.0540 \\
+Without latent-variance safeguard & 0.1526 $\pm$ 0.0762 & 0.0225 $\pm$ 0.0156 & 0.1617 $\pm$ 0.0425 \\
+Without prototype separation & 0.1554 $\pm$ 0.0786 & 0.0221 $\pm$ 0.0183 & 0.1444 $\pm$ 0.0538 \\
+Mask scale $0.10$ & 0.1594 $\pm$ 0.0670 & 0.0233 $\pm$ 0.0193 & 0.1688 $\pm$ 0.0403 \\
+Mask scale $0.50$ & 0.1529 $\pm$ 0.0755 & 0.0244 $\pm$ 0.0174 & 0.1560 $\pm$ 0.0378 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Most frequently selected descriptive feature identifiers in the $\gamma=3$ MAR/MNAR benchmark. Count is the number of distinct scenario--seed fits (out of 60 per dataset) in which the feature ranked in the top ten of either cluster; no molecular identity is inferred for anonymized identifiers.}
+\label{tab:supp_features}
+\small
+\begin{tabular}{llcc}
+\toprule
+Dataset & Feature & Fits selected (of 60) & Mean absolute contrast \\
+\midrule
+MTBLS161 & M15 & 60 & 0.2835 \\
+MTBLS161 & M17 & 58 & 0.3674 \\
+MTBLS161 & M19 & 58 & 0.3314 \\
+MTBLS161 & M25 & 57 & 0.2702 \\
+MTBLS161 & M2 & 52 & 0.2524 \\
+MTBLS161 & M22 & 51 & 0.2563 \\
+MTBLS161 & M23 & 47 & 0.2511 \\
+MTBLS161 & M1 & 46 & 0.2737 \\
+\addlinespace[3pt]
+MTBLS404 & M116 & 58 & 0.4655 \\
+MTBLS404 & M115 & 57 & 0.4694 \\
+MTBLS404 & M24 & 56 & 0.4607 \\
+MTBLS404 & M103 & 54 & 0.4443 \\
+MTBLS404 & M65 & 46 & 0.4240 \\
+MTBLS404 & M105 & 41 & 0.4550 \\
+MTBLS404 & M56 & 41 & 0.4221 \\
+MTBLS404 & M38 & 37 & 0.4253 \\
+\addlinespace[3pt]
+Human Cachexia & Creatinine & 59 & 0.6544 \\
+Human Cachexia & Glutamine & 54 & 0.6843 \\
+Human Cachexia & Dimethylamine & 53 & 0.6618 \\
+Human Cachexia & cis-Aconitate & 53 & 0.6426 \\
+Human Cachexia & Valine & 52 & 0.6978 \\
+Human Cachexia & Alanine & 50 & 0.6711 \\
+Human Cachexia & Tryptophan & 48 & 0.6438 \\
+Human Cachexia & Ethanolamine & 46 & 0.6603 \\
+\bottomrule
+\end{tabular}
+\end{table*}

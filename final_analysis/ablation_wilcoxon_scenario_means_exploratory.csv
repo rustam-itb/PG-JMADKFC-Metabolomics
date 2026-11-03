@@ -1,0 +1,12 @@
+variant,n_scenario_means,mean_delta_PG_minus_variant,scenarios_favor_PG,scenarios_favor_variant,wilcoxon_p_exploratory,holm_adjusted_p_exploratory
+global-bandwidth-kernel,18,0.0362080256475,16,2,0.000106811523438,0.00117492675781
+mask-scale-0.10,18,-0.00591499350599,9,9,0.196388244629,1
+mask-scale-0.50,18,0.000143208909586,10,8,0.798706054688,1
+shuffled-mask-channel,18,-0.00129513231972,6,12,0.392738342285,1
+without-clustering-gradient,18,0.00707792851032,7,11,0.932281494141,1
+without-completion,18,0.00110818473647,9,9,0.639694213867,1
+without-gradient-guard,18,-0.01263215856,6,12,0.324729919434,1
+without-mask-channel,18,-0.000565184144714,8,10,0.639694213867,1
+without-separation,18,0.00396192995602,10,8,0.324729919434,1
+without-variance-safeguard,18,-0.00102730834107,8,9,0.360310093646,1
+zero-target-reconstruction,18,0.0178422986009,13,5,0.0208129882812,0.208129882812

@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 5147,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "3824b9e949ee64bcc8cf0be5e738b4f59a0c01cef29afd46c01052f33ad27d90",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19291467493538111,
+  "NMI": 0.1313180875406162,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.7489271884144625,
+  "prototype_separation": 2.0358815006532183,
+  "projection_count": 30,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.9620331655548007,
+  "missing_completion_mae": 0.801191141096829,
+  "observed_reconstruction_mse": 0.20557225588773365,
+  "runtime_fit_seconds": 1.0767084279996197,
+  "proto_profile_pearson": [
+    0.8915527186230737,
+    0.8942064519019711
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.8658234713223784,
+          "abs_importance": 0.8658234713223784
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.8470041644088918,
+          "abs_importance": 0.8470041644088918
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.8397232434916065,
+          "abs_importance": 0.8397232434916065
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.8362167553509097,
+          "abs_importance": 0.8362167553509097
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.8193311546933009,
+          "abs_importance": 0.8193311546933009
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.8177696757085796,
+          "abs_importance": 0.8177696757085796
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.813813032590539,
+          "abs_importance": 0.813813032590539
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": -0.7871159129386646,
+          "abs_importance": 0.7871159129386646
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7855705774203887,
+          "abs_importance": 0.7855705774203887
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7665223265163548,
+          "abs_importance": 0.7665223265163548
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.4794036872733986,
+          "abs_importance": 0.4794036872733986
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.472695559808995,
+          "abs_importance": 0.472695559808995
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.44524949119777807,
+          "abs_importance": 0.44524949119777807
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.4252837064334084,
+          "abs_importance": 0.4252837064334084
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.42254356010985245,
+          "abs_importance": 0.42254356010985245
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.4208123624510016,
+          "abs_importance": 0.4208123624510016
+        },
+        {
+          "feature": "Hypoxanthine",
+          "signed_contrast": 0.41997298490255447,
+          "abs_importance": 0.41997298490255447
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.4085140275881394,
+          "abs_importance": 0.4085140275881394
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.4002809360833796,
+          "abs_importance": 0.4002809360833796
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": 0.39231594954116045,
+          "abs_importance": 0.39231594954116045
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

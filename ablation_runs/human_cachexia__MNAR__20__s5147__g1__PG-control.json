@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 5147,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "1cdb3fd07f8ef7d93554cb3094b25585a4147e10858549161aa5800fb28b0433",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.17011703111141113,
+  "NMI": 0.11435326594022632,
+  "ACC": 0.7142857142857143,
+  "fuzzy_entropy": 0.7377085969188792,
+  "prototype_separation": 1.9213225127890823,
+  "projection_count": 28,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8233789976961837,
+  "missing_completion_mae": 0.6256772061780506,
+  "observed_reconstruction_mse": 0.20408875137889834,
+  "runtime_fit_seconds": 0.9116501520002203,
+  "proto_profile_pearson": [
+    0.8394566308244488,
+    0.923674297799998
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.885021563102316,
+          "abs_importance": 0.885021563102316
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.8821258502052285,
+          "abs_importance": 0.8821258502052285
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.8418278177703654,
+          "abs_importance": 0.8418278177703654
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.8217764230320118,
+          "abs_importance": 0.8217764230320118
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.8183242878323591,
+          "abs_importance": 0.8183242878323591
+        },
+        {
+          "feature": "myo-Inositol",
+          "signed_contrast": -0.8151127996577666,
+          "abs_importance": 0.8151127996577666
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.8123406053968778,
+          "abs_importance": 0.8123406053968778
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": -0.8096111569207017,
+          "abs_importance": 0.8096111569207017
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": -0.8000029251074929,
+          "abs_importance": 0.8000029251074929
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7921847032529176,
+          "abs_importance": 0.7921847032529176
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.536164211694097,
+          "abs_importance": 0.536164211694097
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.5127780238087608,
+          "abs_importance": 0.5127780238087608
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.5095727820781464,
+          "abs_importance": 0.5095727820781464
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.4955521814737849,
+          "abs_importance": 0.4955521814737849
+        },
+        {
+          "feature": "Methylguanidine",
+          "signed_contrast": 0.48318361618262196,
+          "abs_importance": 0.48318361618262196
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.48249990615876037,
+          "abs_importance": 0.48249990615876037
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.47891545719094186,
+          "abs_importance": 0.47891545719094186
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.47564459834428763,
+          "abs_importance": 0.47564459834428763
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": 0.4685848700932953,
+          "abs_importance": 0.4685848700932953
+        },
+        {
+          "feature": "1-Methylnicotinamide",
+          "signed_contrast": 0.46571876415319985,
+          "abs_importance": 0.46571876415319985
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

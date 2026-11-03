@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MAR",
+  "rate": 0.1,
+  "seed": 2081,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "9298e488417afcfc3c77292f7b5837023b764831adf8aa47b0602f2450273617",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.17291185039966062,
+  "NMI": 0.13041682003442331,
+  "ACC": 0.7142857142857143,
+  "fuzzy_entropy": 0.7187053516624342,
+  "prototype_separation": 1.650560082759665,
+  "projection_count": 32,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.9107914006989872,
+  "missing_completion_mae": 0.700243793963474,
+  "observed_reconstruction_mse": 0.19051461980505674,
+  "runtime_fit_seconds": 1.4378286820010544,
+  "proto_profile_pearson": [
+    0.8993123929767811,
+    0.8897285980828178
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.684531091389042,
+          "abs_importance": 0.684531091389042
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": 0.6757899265546184,
+          "abs_importance": 0.6757899265546184
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.6665079731983223,
+          "abs_importance": 0.6665079731983223
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.6491500179863565,
+          "abs_importance": 0.6491500179863565
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": 0.6441534025603247,
+          "abs_importance": 0.6441534025603247
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.6281353569159437,
+          "abs_importance": 0.6281353569159437
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": 0.6236182053245966,
+          "abs_importance": 0.6236182053245966
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.615581207219727,
+          "abs_importance": 0.615581207219727
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.6024412812788403,
+          "abs_importance": 0.6024412812788403
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.6016744906482275,
+          "abs_importance": 0.6016744906482275
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7710299037964855,
+          "abs_importance": 0.7710299037964855
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7412076558719125,
+          "abs_importance": 0.7412076558719125
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7383131446840635,
+          "abs_importance": 0.7383131446840635
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7344506950339268,
+          "abs_importance": 0.7344506950339268
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7247609433317235,
+          "abs_importance": 0.7247609433317235
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7235082017445038,
+          "abs_importance": 0.7235082017445038
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7220849460221235,
+          "abs_importance": 0.7220849460221235
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7211789050186054,
+          "abs_importance": 0.7211789050186054
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7097748461335966,
+          "abs_importance": 0.7097748461335966
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7043003817612761,
+          "abs_importance": 0.7043003817612761
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

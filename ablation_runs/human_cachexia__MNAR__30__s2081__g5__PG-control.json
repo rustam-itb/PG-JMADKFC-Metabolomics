@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 2081,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "ef3860499c73c8e564a3b19e69fbc15002b63cccd046e894e3a78057f247e7ad",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.12859006549144808,
+  "NMI": 0.08576045967053397,
+  "ACC": 0.6883116883116883,
+  "fuzzy_entropy": 0.7953003559788768,
+  "prototype_separation": 1.5967041830093476,
+  "projection_count": 93,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.0333322356762333,
+  "missing_completion_mae": 0.8551836626484222,
+  "observed_reconstruction_mse": 0.16426762219872768,
+  "runtime_fit_seconds": 0.9975689200000488,
+  "proto_profile_pearson": [
+    0.795481502396144,
+    0.7296072809208649
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.3257892360028877,
+          "abs_importance": 0.3257892360028877
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.30351201702425423,
+          "abs_importance": 0.30351201702425423
+        },
+        {
+          "feature": "Guanidoacetate",
+          "signed_contrast": 0.2995421098176755,
+          "abs_importance": 0.2995421098176755
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.2968509773959303,
+          "abs_importance": 0.2968509773959303
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.2902793806062147,
+          "abs_importance": 0.2902793806062147
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.2861506984619982,
+          "abs_importance": 0.2861506984619982
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.2860666452043558,
+          "abs_importance": 0.2860666452043558
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.2827412551878202,
+          "abs_importance": 0.2827412551878202
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.2732958148801834,
+          "abs_importance": 0.2732958148801834
+        },
+        {
+          "feature": "Methylguanidine",
+          "signed_contrast": 0.2670045811557862,
+          "abs_importance": 0.2670045811557862
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7382576021008538,
+          "abs_importance": 0.7382576021008538
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.7186630417030707,
+          "abs_importance": 0.7186630417030707
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7002480360045582,
+          "abs_importance": 0.7002480360045582
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.6932236027703813,
+          "abs_importance": 0.6932236027703813
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.6692478830506969,
+          "abs_importance": 0.6692478830506969
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.6586141652468473,
+          "abs_importance": 0.6586141652468473
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.6570512096598898,
+          "abs_importance": 0.6570512096598898
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.6440116262237864,
+          "abs_importance": 0.6440116262237864
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.6376996221193982,
+          "abs_importance": 0.6376996221193982
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.6175634309669846,
+          "abs_importance": 0.6175634309669846
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

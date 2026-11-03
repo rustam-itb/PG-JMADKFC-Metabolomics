@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "dataset": "MTBLS404",
+  "mechanism": "MAR",
+  "rate": 0.2,
+  "seed": 5147,
+  "source_sha256": "0ca2012f12363d4c70ff15fc937c08fb7c112fcb4dbd92943ea6a7505ee8b8cf",
+  "mask_sha256": "1dea324bda7c358c1d4922d33097e185e9a5f5d3ba8007c5fed2e928f4f2b3e8",
+  "n_missing": 4416,
+  "rows": [
+    {
+      "method": "Mean",
+      "RMSE": 0.9583062085441368,
+      "MAE": 0.7491913585940948,
+      "runtime_seconds": 0.00046843600102874916
+    },
+    {
+      "method": "Median",
+      "RMSE": 0.938240219099907,
+      "MAE": 0.7147938001728562,
+      "runtime_seconds": 0.0014458699988608714
+    },
+    {
+      "method": "KNN",
+      "RMSE": 0.7300549814201921,
+      "MAE": 0.5152072981858149,
+      "runtime_seconds": 0.13073572400026023
+    },
+    {
+      "method": "MICE",
+      "RMSE": 0.6040566922240477,
+      "MAE": 0.41145989928319027,
+      "runtime_seconds": 5.107185463999485
+    },
+    {
+      "method": "IterativeSVD",
+      "RMSE": 0.7084172747304142,
+      "MAE": 0.4956057640602857,
+      "runtime_seconds": 30.903072994000468
+    }
+  ]
+}

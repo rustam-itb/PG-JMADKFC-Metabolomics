@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MAR",
+  "rate": 0.3,
+  "seed": 7187,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "505e935eaf74cdc1de911b4506e07b0ce20008abbc6dd6b027bd8d92047a0a54",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.17011703111141113,
+  "NMI": 0.11435326594022632,
+  "ACC": 0.7142857142857143,
+  "fuzzy_entropy": 0.8029655439208597,
+  "prototype_separation": 2.0750212229935605,
+  "projection_count": 33,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8805108195461613,
+  "missing_completion_mae": 0.6754572964355374,
+  "observed_reconstruction_mse": 0.1928518416055994,
+  "runtime_fit_seconds": 1.0489419030000136,
+  "proto_profile_pearson": [
+    0.7769168840214248,
+    0.8878279259100237
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.8354672170631101,
+          "abs_importance": 0.8354672170631101
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7367778280051958,
+          "abs_importance": 0.7367778280051958
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7300848769487337,
+          "abs_importance": 0.7300848769487337
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.7278476434244654,
+          "abs_importance": 0.7278476434244654
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7268896999254335,
+          "abs_importance": 0.7268896999254335
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7253136372881196,
+          "abs_importance": 0.7253136372881196
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7174118924387952,
+          "abs_importance": 0.7174118924387952
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7055771621986322,
+          "abs_importance": 0.7055771621986322
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.7017707211569548,
+          "abs_importance": 0.7017707211569548
+        },
+        {
+          "feature": "Serine",
+          "signed_contrast": -0.6921041675939198,
+          "abs_importance": 0.6921041675939198
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.6442688325561168,
+          "abs_importance": 0.6442688325561168
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.6058458222919687,
+          "abs_importance": 0.6058458222919687
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.6042126558844125,
+          "abs_importance": 0.6042126558844125
+        },
+        {
+          "feature": "Fucose",
+          "signed_contrast": 0.5543357901082058,
+          "abs_importance": 0.5543357901082058
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.5497036032680652,
+          "abs_importance": 0.5497036032680652
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.5370659668550923,
+          "abs_importance": 0.5370659668550923
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.5369420189219618,
+          "abs_importance": 0.5369420189219618
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.5363050798416632,
+          "abs_importance": 0.5363050798416632
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.5276320769499622,
+          "abs_importance": 0.5276320769499622
+        },
+        {
+          "feature": "4-Hydroxyphenylacetate",
+          "signed_contrast": 0.5216564173967417,
+          "abs_importance": 0.5216564173967417
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 7187,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "dc79512fe2c647f772de83608e6ab7ebb04882f1fbc757fe17f966085caa7f64",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19291467493538111,
+  "NMI": 0.1313180875406162,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.7991845694107665,
+  "prototype_separation": 2.1368399040115214,
+  "projection_count": 27,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.7947214066312124,
+  "missing_completion_mae": 0.6334156551995707,
+  "observed_reconstruction_mse": 0.1576962218209412,
+  "runtime_fit_seconds": 1.0498176450000756,
+  "proto_profile_pearson": [
+    0.8486670746312511,
+    0.9193642773014346
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.750335601116081,
+          "abs_importance": 0.750335601116081
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.745538686006172,
+          "abs_importance": 0.745538686006172
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.737486315910463,
+          "abs_importance": 0.737486315910463
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7255404027854505,
+          "abs_importance": 0.7255404027854505
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.701391688558362,
+          "abs_importance": 0.701391688558362
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.6965394188872133,
+          "abs_importance": 0.6965394188872133
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.6899537625269418,
+          "abs_importance": 0.6899537625269418
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.6813571592116283,
+          "abs_importance": 0.6813571592116283
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.6799993100462187,
+          "abs_importance": 0.6799993100462187
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.6657171826030519,
+          "abs_importance": 0.6657171826030519
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.41576018638097056,
+          "abs_importance": 0.41576018638097056
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.3963386835050805,
+          "abs_importance": 0.3963386835050805
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.39625020658201526,
+          "abs_importance": 0.39625020658201526
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.3802029695353308,
+          "abs_importance": 0.3802029695353308
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.37620960855987773,
+          "abs_importance": 0.37620960855987773
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.36676861988891035,
+          "abs_importance": 0.36676861988891035
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.36231389366009703,
+          "abs_importance": 0.36231389366009703
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": 0.359220324517284,
+          "abs_importance": 0.359220324517284
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.35401687018032296,
+          "abs_importance": 0.35401687018032296
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": 0.35277540131473134,
+          "abs_importance": 0.35277540131473134
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

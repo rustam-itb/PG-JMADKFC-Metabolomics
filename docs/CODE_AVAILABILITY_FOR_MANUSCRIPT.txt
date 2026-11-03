@@ -1,0 +1,5 @@
+Code Availability
+
+The implementation of Prototype-Guided Joint Missingness-Aware Deep Kernel Fuzzy Clustering (PG-JMADKFC), the benchmark baseline implementations, and the scripts used for preprocessing, simulated missingness, model training, component ablation, masked-entry completion, statistical analysis, and metabolite-level interpretation are available from the authors' GitHub repository: https://github.com/USERNAME/REPOSITORY (release v1.0.0: https://github.com/USERNAME/REPOSITORY/releases/tag/v1.0.0). The repository contains documented experiment configurations, fit-level result records, analysis scripts, and instructions for obtaining and preparing the public metabolomics source datasets.
+
+REQUIRED BEFORE SUBMISSION: Replace the placeholder links with verified public URLs and ensure the reproduction claims/notes and redistribution permissions have been reviewed. See docs/REPRODUCIBILITY_AUDIT.md.

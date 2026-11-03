@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 8209,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "154906319f1bfac8c3d4fa1acc4f9d27aaa65c37828471da86b197337ea88e04",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19174916003337317,
+  "NMI": 0.13092177752682285,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.7789276852372334,
+  "prototype_separation": 1.9455827045489327,
+  "projection_count": 35,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.9201019996171669,
+  "missing_completion_mae": 0.754169026575799,
+  "observed_reconstruction_mse": 0.12084689150609941,
+  "runtime_fit_seconds": 0.9571854570003779,
+  "proto_profile_pearson": [
+    0.887305163525304,
+    0.8527035897351204
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.8754127312179228,
+          "abs_importance": 0.8754127312179228
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.8690474980616586,
+          "abs_importance": 0.8690474980616586
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.8018123180500061,
+          "abs_importance": 0.8018123180500061
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7983666989577585,
+          "abs_importance": 0.7983666989577585
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7770255195159945,
+          "abs_importance": 0.7770255195159945
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7730899632606396,
+          "abs_importance": 0.7730899632606396
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.7609906089519425,
+          "abs_importance": 0.7609906089519425
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.760116774234082,
+          "abs_importance": 0.760116774234082
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.756594862479851,
+          "abs_importance": 0.756594862479851
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7373997320440421,
+          "abs_importance": 0.7373997320440421
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.40207060410087947,
+          "abs_importance": 0.40207060410087947
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.3722550112531857,
+          "abs_importance": 0.3722550112531857
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.3608254503146803,
+          "abs_importance": 0.3608254503146803
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.36040323977113314,
+          "abs_importance": 0.36040323977113314
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.34491976548834585,
+          "abs_importance": 0.34491976548834585
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.33611023217722225,
+          "abs_importance": 0.33611023217722225
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": 0.3261390823570811,
+          "abs_importance": 0.3261390823570811
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.32454890329101665,
+          "abs_importance": 0.32454890329101665
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.3227843770130339,
+          "abs_importance": 0.3227843770130339
+        },
+        {
+          "feature": "Betaine",
+          "signed_contrast": 0.3143234736978733,
+          "abs_importance": 0.3143234736978733
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

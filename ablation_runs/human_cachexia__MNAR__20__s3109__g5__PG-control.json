@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 3109,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "757f761e0eb17b8b43f0a52cd41afddf7393949b1ac182abe255459326bd918b",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19174916003337317,
+  "NMI": 0.13092177752682285,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.7738799572919293,
+  "prototype_separation": 1.6260605275614757,
+  "projection_count": 50,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8757534371785711,
+  "missing_completion_mae": 0.7109546712217178,
+  "observed_reconstruction_mse": 0.15417531696606585,
+  "runtime_fit_seconds": 1.0447217880009703,
+  "proto_profile_pearson": [
+    0.8482091473832882,
+    0.8842028704261582
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.837081854633418,
+          "abs_importance": 0.837081854633418
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.8255142188214609,
+          "abs_importance": 0.8255142188214609
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.8026324327039066,
+          "abs_importance": 0.8026324327039066
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7895723304496628,
+          "abs_importance": 0.7895723304496628
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.7761181718049007,
+          "abs_importance": 0.7761181718049007
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7738098009842911,
+          "abs_importance": 0.7738098009842911
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.76780788639771,
+          "abs_importance": 0.76780788639771
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7634334247900502,
+          "abs_importance": 0.7634334247900502
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": -0.7617013173226767,
+          "abs_importance": 0.7617013173226767
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7484344078717735,
+          "abs_importance": 0.7484344078717735
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.40002005467598095,
+          "abs_importance": 0.40002005467598095
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.39338935640368133,
+          "abs_importance": 0.39338935640368133
+        },
+        {
+          "feature": "Pyruvate",
+          "signed_contrast": 0.38934978452541663,
+          "abs_importance": 0.38934978452541663
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.38762786439174074,
+          "abs_importance": 0.38762786439174074
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": 0.3828571158550319,
+          "abs_importance": 0.3828571158550319
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.37971170165732965,
+          "abs_importance": 0.37971170165732965
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.3538313112026955,
+          "abs_importance": 0.3538313112026955
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": 0.3516522947799987,
+          "abs_importance": 0.3516522947799987
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.3466195599301277,
+          "abs_importance": 0.3466195599301277
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.3465248581887736,
+          "abs_importance": 0.3465248581887736
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

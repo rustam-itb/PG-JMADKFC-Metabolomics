@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 1061,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "4e87eae7a7b4846a5e5c9f5f60eed6d4795ea5d37ab1d80d7ace259add5f4fa7",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.2437006562744813,
+  "NMI": 0.17128576239163865,
+  "ACC": 0.7532467532467533,
+  "fuzzy_entropy": 0.7823804224479984,
+  "prototype_separation": 1.7540527126847203,
+  "projection_count": 46,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.7897619013636157,
+  "missing_completion_mae": 0.6233290805398872,
+  "observed_reconstruction_mse": 0.12782151348035728,
+  "runtime_fit_seconds": 0.9803769160007505,
+  "proto_profile_pearson": [
+    0.8631147589767469,
+    0.8938630480215112
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.8536631707002963,
+          "abs_importance": 0.8536631707002963
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7901453225620884,
+          "abs_importance": 0.7901453225620884
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.7821258986167552,
+          "abs_importance": 0.7821258986167552
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7819811759121413,
+          "abs_importance": 0.7819811759121413
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7763286374612476,
+          "abs_importance": 0.7763286374612476
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7637818556594678,
+          "abs_importance": 0.7637818556594678
+        },
+        {
+          "feature": "Serine",
+          "signed_contrast": -0.7588827184159048,
+          "abs_importance": 0.7588827184159048
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7448701634260254,
+          "abs_importance": 0.7448701634260254
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.735529888496392,
+          "abs_importance": 0.735529888496392
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": -0.733060375585299,
+          "abs_importance": 0.733060375585299
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.4375723299290648,
+          "abs_importance": 0.4375723299290648
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.4350348561825088,
+          "abs_importance": 0.4350348561825088
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.4236274253083308,
+          "abs_importance": 0.4236274253083308
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.42071438231822283,
+          "abs_importance": 0.42071438231822283
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.4151895104692149,
+          "abs_importance": 0.4151895104692149
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.41467285242594926,
+          "abs_importance": 0.41467285242594926
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.400924523870705,
+          "abs_importance": 0.400924523870705
+        },
+        {
+          "feature": "Creatine",
+          "signed_contrast": 0.3871759885601841,
+          "abs_importance": 0.3871759885601841
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.37723477844363973,
+          "abs_importance": 0.37723477844363973
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.3765971339257176,
+          "abs_importance": 0.3765971339257176
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

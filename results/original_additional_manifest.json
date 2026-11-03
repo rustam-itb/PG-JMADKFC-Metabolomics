@@ -1,0 +1,48 @@
+{
+  "main_ablation_fits": 2160,
+  "variants": [
+    "PG-control",
+    "global-bandwidth-kernel",
+    "mask-scale-0.10",
+    "mask-scale-0.50",
+    "shuffled-mask-channel",
+    "without-clustering-gradient",
+    "without-completion",
+    "without-gradient-guard",
+    "without-mask-channel",
+    "without-separation",
+    "without-variance-safeguard",
+    "zero-target-reconstruction"
+  ],
+  "missingness_sensitivity_fits": 630,
+  "imputation_fits": 1080,
+  "feature_perturbation_model_fits": 30,
+  "replayed_control_fits": 180,
+  "replay_max_metric_errors": {
+    "ARI": 9.71445146547012e-17,
+    "NMI": 9.8879238130678e-17,
+    "ACC": 0.0
+  },
+  "replay_max_completion_MSE_error": 8.881784197001252e-16,
+  "files": {
+    "ablation_by_dataset.csv": "68932935c12c8e386a87ab8b31729954f0904ff953f68b593fc37852dd7039f2",
+    "ablation_effect_per_18_scenarios.csv": "06a1fd71d9913133f14bab1685184829546e2e9e68ef49578410657c9d08a78a",
+    "ablation_overall_comparison.csv": "41208ddc86cc5bc057fddbaec576c78f79834b02bdd003d39797d1e666b94a4d",
+    "ablation_wilcoxon_scenario_means_exploratory.csv": "b6e749a48f61fe923fdf63e44114ea10254844924a220e47c22b89c6c0545e5c",
+    "all_additional_pg_fit_metrics.csv": "3f34e3ef9f8b1ebd66c731e9db6c893d56acf1f31f01cac64d1239c5b69cad98",
+    "completion_rmse_paired_differences_baseline_minus_pg.csv": "ceee241013e0308439634b184e9b0b91ae97ee9c3d32a21f706d81fccd4ef5f3",
+    "feature_perturbation_dataset_summary.csv": "c406dc487d4f7e64961579dc9c0bfbba6f3a3d0e0533783ae22236c5831c1c87",
+    "feature_perturbation_summary_30_fits.csv": "9b817bdac59e1ff475d2620b3ddb5c19531d9ace38465c4358638c0791110356",
+    "feature_selection_stability.csv": "3feefe3278f97fe5b03c11a150f05660dc752f7106b71396d200c9ece4ba8207",
+    "gamma_and_mcar_by_dataset.csv": "b669713a9748fae0cb156523c1c0c15111d60c688bd1144de75bfc1a776196f8",
+    "gamma_and_mcar_overall.csv": "d08aca51f27aa573d1cf0794868162f4c36019cff10c7a49d0d4b457ccf60c31",
+    "inference_time_feature_perturbation_all_features.csv": "e876f0041d0aa47b3c86750d15bc8caf9420b23f2d7b59d54888c1f4627649a7",
+    "masked_entry_completion_6_methods_1080_fits.csv": "cb86660131ccfd8e526b557aa556bdf43813e5bc7823e7ffbd5a5f3bf9f78f58",
+    "masked_entry_completion_overall.csv": "e6505e34b4913afb964449423a5a190dd522bb84bbdb37c988c15ff676619965",
+    "masked_entry_completion_summary.csv": "73add53575cba1766c7926d553aa721e8952dcb3f00ac15cbc389a9caca07f12",
+    "paired_component_ablation_180_conditions.csv": "65730290beab94addbb279405c83147642f62c6b9b124eee7b2ed48faf4bbc64",
+    "prototype_observed_profile_correlations.csv": "b98effd9ba611b05636c02d38ec3bbf307bb68ccb551c58bbf95a14282d6509f",
+    "prototype_profile_correlation_summary.csv": "b18750c935a0ccce16fc7b7b7c1fae81de87656eb22ba40b44680bc5ad58a175",
+    "top10_feature_summaries_across_180_fit.csv": "54efc5ea1ea4657c7ac73f75bbfdcf943adb63462e9c85e44623cd26fe7cc3a0"
+  }
+}

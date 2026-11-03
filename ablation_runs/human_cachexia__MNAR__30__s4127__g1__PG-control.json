@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 4127,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "677ab939617588cb5e764ceb34da28dc50bbed89a553e51b0ae45d3cf0c6976f",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.2437006562744813,
+  "NMI": 0.17128576239163865,
+  "ACC": 0.7532467532467533,
+  "fuzzy_entropy": 0.7507338977764892,
+  "prototype_separation": 1.5687070762406445,
+  "projection_count": 37,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.7924230529071153,
+  "missing_completion_mae": 0.6040929926055433,
+  "observed_reconstruction_mse": 0.16140180159908865,
+  "runtime_fit_seconds": 1.0127150879998226,
+  "proto_profile_pearson": [
+    0.7546975525095095,
+    0.9251402173472735
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.833425623551308,
+          "abs_importance": 0.833425623551308
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.8056414779424396,
+          "abs_importance": 0.8056414779424396
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7977157792948503,
+          "abs_importance": 0.7977157792948503
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7776908603756457,
+          "abs_importance": 0.7776908603756457
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7770453585612299,
+          "abs_importance": 0.7770453585612299
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.775927560020886,
+          "abs_importance": 0.775927560020886
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7615240519956656,
+          "abs_importance": 0.7615240519956656
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.7408141136001745,
+          "abs_importance": 0.7408141136001745
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7347643188344037,
+          "abs_importance": 0.7347643188344037
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.7331825067651433,
+          "abs_importance": 0.7331825067651433
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.5242303789995678,
+          "abs_importance": 0.5242303789995678
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": 0.5075079594844931,
+          "abs_importance": 0.5075079594844931
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.49981646791315304,
+          "abs_importance": 0.49981646791315304
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.48463450998915314,
+          "abs_importance": 0.48463450998915314
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.4779439279181339,
+          "abs_importance": 0.4779439279181339
+        },
+        {
+          "feature": "Betaine",
+          "signed_contrast": 0.44695543989688,
+          "abs_importance": 0.44695543989688
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": 0.4423995909045712,
+          "abs_importance": 0.4423995909045712
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.4347221665193292,
+          "abs_importance": 0.4347221665193292
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.42846884390389745,
+          "abs_importance": 0.42846884390389745
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.41135137592487286,
+          "abs_importance": 0.41135137592487286
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

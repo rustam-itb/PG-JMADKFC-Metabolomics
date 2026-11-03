@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 9221,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "1748bbbb2a0d18f702a732c99aa575e114f03053fbd186e7e7f014ce51456be7",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19291467493538111,
+  "NMI": 0.1313180875406162,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.7727636383716942,
+  "prototype_separation": 1.9076315214434056,
+  "projection_count": 27,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.9290194838390334,
+  "missing_completion_mae": 0.7598950391057756,
+  "observed_reconstruction_mse": 0.139149012274571,
+  "runtime_fit_seconds": 0.8980392920002487,
+  "proto_profile_pearson": [
+    0.851720100852109,
+    0.8638810504427139
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.8028969220425759,
+          "abs_importance": 0.8028969220425759
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.8012366675697875,
+          "abs_importance": 0.8012366675697875
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7978347718041299,
+          "abs_importance": 0.7978347718041299
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7956666956193221,
+          "abs_importance": 0.7956666956193221
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7935895540610368,
+          "abs_importance": 0.7935895540610368
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7742349335632075,
+          "abs_importance": 0.7742349335632075
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.7740470512762284,
+          "abs_importance": 0.7740470512762284
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7628395675285209,
+          "abs_importance": 0.7628395675285209
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.74899459376502,
+          "abs_importance": 0.74899459376502
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.7471792815466444,
+          "abs_importance": 0.7471792815466444
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.4015676850745673,
+          "abs_importance": 0.4015676850745673
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.4005927687699627,
+          "abs_importance": 0.4005927687699627
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.39518698074060893,
+          "abs_importance": 0.39518698074060893
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.3919134475445516,
+          "abs_importance": 0.3919134475445516
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.38808334159472596,
+          "abs_importance": 0.38808334159472596
+        },
+        {
+          "feature": "Isoleucine",
+          "signed_contrast": 0.38108080767087277,
+          "abs_importance": 0.38108080767087277
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.37266612997943,
+          "abs_importance": 0.37266612997943
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.3716232217855122,
+          "abs_importance": 0.3716232217855122
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.3607288379932505,
+          "abs_importance": 0.3607288379932505
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.35520105622637554,
+          "abs_importance": 0.35520105622637554
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

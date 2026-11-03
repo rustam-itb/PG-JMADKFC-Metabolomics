@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 7187,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "869ce075d75c8f8f7bdd2c10aa30eee8416e0a6ddad9f457c22d74394f759ec6",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.17011703111141113,
+  "NMI": 0.11435326594022632,
+  "ACC": 0.7142857142857143,
+  "fuzzy_entropy": 0.7845067761408901,
+  "prototype_separation": 2.03383851072627,
+  "projection_count": 22,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.1370239836537979,
+  "missing_completion_mae": 0.9357445436801226,
+  "observed_reconstruction_mse": 0.1632076174165082,
+  "runtime_fit_seconds": 1.0355732459993305,
+  "proto_profile_pearson": [
+    0.766263005879465,
+    0.8507797041304658
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Methylamine",
+          "signed_contrast": -0.7282478595808357,
+          "abs_importance": 0.7282478595808357
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7120664227893365,
+          "abs_importance": 0.7120664227893365
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.6827917639711306,
+          "abs_importance": 0.6827917639711306
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.6800572702866592,
+          "abs_importance": 0.6800572702866592
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.6707606833563772,
+          "abs_importance": 0.6707606833563772
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.6515965600845132,
+          "abs_importance": 0.6515965600845132
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.650868131351549,
+          "abs_importance": 0.650868131351549
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.6455962119491154,
+          "abs_importance": 0.6455962119491154
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.6306719132696641,
+          "abs_importance": 0.6306719132696641
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.6101835792646602,
+          "abs_importance": 0.6101835792646602
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.29197895396158674,
+          "abs_importance": 0.29197895396158674
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.2719838155497975,
+          "abs_importance": 0.2719838155497975
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.26941668495484095,
+          "abs_importance": 0.26941668495484095
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.2642491491450607,
+          "abs_importance": 0.2642491491450607
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.2517690395753489,
+          "abs_importance": 0.2517690395753489
+        },
+        {
+          "feature": "3-Hydroxybutyrate",
+          "signed_contrast": 0.2486075978508347,
+          "abs_importance": 0.2486075978508347
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.24727169050862685,
+          "abs_importance": 0.24727169050862685
+        },
+        {
+          "feature": "Isoleucine",
+          "signed_contrast": 0.24220917001882644,
+          "abs_importance": 0.24220917001882644
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.2383528290249527,
+          "abs_importance": 0.2383528290249527
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": 0.22902689069966684,
+          "abs_importance": 0.22902689069966684
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the accompanying paper and the dataset sources when using this research code.
+title: >-
+  PG-JMADKFC: Reproducible Code and Experiments for Incomplete Metabolomics Data
+type: software
+authors:
+  - name: Rustam
+  - given-names: Abdulbasit A.
+    family-names: Darem
+  - given-names: Asma A.
+    family-names: Alhashmi
+version: 1.0.0
+abstract: >-
+  Prototype-guided joint missingness-aware deep kernel fuzzy clustering for incomplete metabolomics,
+  including eleven original benchmark baselines and controlled component experiments.

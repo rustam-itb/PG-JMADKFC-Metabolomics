@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 5147,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "ceabc62ca9102a936635502c137ae6a674dd8fef73078d4027fee5ecccbcb21c",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.14638814350463392,
+  "NMI": 0.09579428655600676,
+  "ACC": 0.7012987012987013,
+  "fuzzy_entropy": 0.7123199181170429,
+  "prototype_separation": 1.8625083667509879,
+  "projection_count": 22,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8193327057330735,
+  "missing_completion_mae": 0.6666433342057428,
+  "observed_reconstruction_mse": 0.23865367998642537,
+  "runtime_fit_seconds": 0.9302229610002541,
+  "proto_profile_pearson": [
+    0.6914866693876857,
+    0.9496283309912665
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.8129883149163767,
+          "abs_importance": 0.8129883149163767
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.794757844911474,
+          "abs_importance": 0.794757844911474
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7851108547889694,
+          "abs_importance": 0.7851108547889694
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": -0.7794551037906068,
+          "abs_importance": 0.7794551037906068
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7606776474008377,
+          "abs_importance": 0.7606776474008377
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7462566507054992,
+          "abs_importance": 0.7462566507054992
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7445181679559963,
+          "abs_importance": 0.7445181679559963
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": -0.7430660676892592,
+          "abs_importance": 0.7430660676892592
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7341449831170133,
+          "abs_importance": 0.7341449831170133
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7340159840703155,
+          "abs_importance": 0.7340159840703155
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.43701748070092516,
+          "abs_importance": 0.43701748070092516
+        },
+        {
+          "feature": "N,N-Dimethylglycine",
+          "signed_contrast": 0.40800418981255504,
+          "abs_importance": 0.40800418981255504
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": 0.3979861209621872,
+          "abs_importance": 0.3979861209621872
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.39404397727029034,
+          "abs_importance": 0.39404397727029034
+        },
+        {
+          "feature": "Betaine",
+          "signed_contrast": 0.39219756599313016,
+          "abs_importance": 0.39219756599313016
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.38429538124554546,
+          "abs_importance": 0.38429538124554546
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.37460825768515843,
+          "abs_importance": 0.37460825768515843
+        },
+        {
+          "feature": "1-Methylnicotinamide",
+          "signed_contrast": 0.3713792154739472,
+          "abs_importance": 0.3713792154739472
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.370116385984509,
+          "abs_importance": 0.370116385984509
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.36758358949395914,
+          "abs_importance": 0.36758358949395914
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

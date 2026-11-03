@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "MTBLS161",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 2081,
+  "variant": "PG-control",
+  "gamma": 1.0,
+  "mask_sha256": "c6ad37215c728ebc4f7a11792100a065542ea9b3dac1789bcc8a4c72b07ce7ff",
+  "source_sha256": "ee275f6a7908f1de98d06c416f73c7c1e0097d0ed1fbc4572551f9f8571eb11e",
+  "n_samples": 59,
+  "n_features": 29,
+  "ARI": 0.111647315048354,
+  "NMI": 0.0879180920450584,
+  "ACC": 0.6779661016949152,
+  "fuzzy_entropy": 0.9123795392567495,
+  "prototype_separation": 1.6399208758611803,
+  "projection_count": 0,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.1507761445619582,
+  "missing_completion_mae": 0.7969788792267406,
+  "observed_reconstruction_mse": 0.008772512329795054,
+  "runtime_fit_seconds": 0.8641020249997382,
+  "proto_profile_pearson": [
+    0.752053377536353,
+    0.8316138326765866
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "M2",
+          "signed_contrast": -0.4535590916246371,
+          "abs_importance": 0.4535590916246371
+        },
+        {
+          "feature": "M23",
+          "signed_contrast": -0.38054860376841604,
+          "abs_importance": 0.38054860376841604
+        },
+        {
+          "feature": "M28",
+          "signed_contrast": -0.3680912435815038,
+          "abs_importance": 0.3680912435815038
+        },
+        {
+          "feature": "M14",
+          "signed_contrast": -0.3607330114266615,
+          "abs_importance": 0.3607330114266615
+        },
+        {
+          "feature": "M17",
+          "signed_contrast": -0.3527534482135768,
+          "abs_importance": 0.3527534482135768
+        },
+        {
+          "feature": "M22",
+          "signed_contrast": -0.33790565508021697,
+          "abs_importance": 0.33790565508021697
+        },
+        {
+          "feature": "M25",
+          "signed_contrast": -0.335720933148019,
+          "abs_importance": 0.335720933148019
+        },
+        {
+          "feature": "M20",
+          "signed_contrast": -0.33350042106318145,
+          "abs_importance": 0.33350042106318145
+        },
+        {
+          "feature": "M13",
+          "signed_contrast": -0.3055820671679419,
+          "abs_importance": 0.3055820671679419
+        },
+        {
+          "feature": "M8",
+          "signed_contrast": -0.301322141124419,
+          "abs_importance": 0.301322141124419
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "M2",
+          "signed_contrast": 0.4482424101174863,
+          "abs_importance": 0.4482424101174863
+        },
+        {
+          "feature": "M17",
+          "signed_contrast": 0.4071357454513175,
+          "abs_importance": 0.4071357454513175
+        },
+        {
+          "feature": "M23",
+          "signed_contrast": 0.36753272451396485,
+          "abs_importance": 0.36753272451396485
+        },
+        {
+          "feature": "M22",
+          "signed_contrast": 0.3625996999027504,
+          "abs_importance": 0.3625996999027504
+        },
+        {
+          "feature": "M14",
+          "signed_contrast": 0.3415478873599937,
+          "abs_importance": 0.3415478873599937
+        },
+        {
+          "feature": "M28",
+          "signed_contrast": 0.32242928416949,
+          "abs_importance": 0.32242928416949
+        },
+        {
+          "feature": "M25",
+          "signed_contrast": 0.306237950158904,
+          "abs_importance": 0.306237950158904
+        },
+        {
+          "feature": "M15",
+          "signed_contrast": 0.30483995746892445,
+          "abs_importance": 0.30483995746892445
+        },
+        {
+          "feature": "M8",
+          "signed_contrast": 0.3031613268237635,
+          "abs_importance": 0.3031613268237635
+        },
+        {
+          "feature": "M19",
+          "signed_contrast": 0.29394158274805815,
+          "abs_importance": 0.29394158274805815
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

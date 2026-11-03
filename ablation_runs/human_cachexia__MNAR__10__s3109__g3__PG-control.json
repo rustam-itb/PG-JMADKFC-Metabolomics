@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.1,
+  "seed": 3109,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "76c8c72d4dc5e59db877f5cd35cbd50e90cdd6576f75d31c01343e47d0f32541",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.14761906995726476,
+  "NMI": 0.09708602069717383,
+  "ACC": 0.7012987012987013,
+  "fuzzy_entropy": 0.7463191747432222,
+  "prototype_separation": 1.8697055326549803,
+  "projection_count": 55,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.7988092584280261,
+  "missing_completion_mae": 0.6507713889669545,
+  "observed_reconstruction_mse": 0.18706812938639547,
+  "runtime_fit_seconds": 0.9716589759991621,
+  "proto_profile_pearson": [
+    0.8951066817416993,
+    0.9385059966159913
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.7888135804673716,
+          "abs_importance": 0.7888135804673716
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7858982831185228,
+          "abs_importance": 0.7858982831185228
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7726842558156766,
+          "abs_importance": 0.7726842558156766
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.7700249959817375,
+          "abs_importance": 0.7700249959817375
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7656710810822087,
+          "abs_importance": 0.7656710810822087
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7641983982704721,
+          "abs_importance": 0.7641983982704721
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.7622978133150238,
+          "abs_importance": 0.7622978133150238
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.7547630421246823,
+          "abs_importance": 0.7547630421246823
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.744965537732497,
+          "abs_importance": 0.744965537732497
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7442978154725296,
+          "abs_importance": 0.7442978154725296
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.5124683424104245,
+          "abs_importance": 0.5124683424104245
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.5083443638627092,
+          "abs_importance": 0.5083443638627092
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.5005876060362522,
+          "abs_importance": 0.5005876060362522
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": 0.4949511142953852,
+          "abs_importance": 0.4949511142953852
+        },
+        {
+          "feature": "Hippurate",
+          "signed_contrast": 0.47958680414909566,
+          "abs_importance": 0.47958680414909566
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.45610959437927145,
+          "abs_importance": 0.45610959437927145
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": 0.4513760896460331,
+          "abs_importance": 0.4513760896460331
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.4453235331080896,
+          "abs_importance": 0.4453235331080896
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.4447051206218631,
+          "abs_importance": 0.4447051206218631
+        },
+        {
+          "feature": "Creatine",
+          "signed_contrast": 0.44021156515038373,
+          "abs_importance": 0.44021156515038373
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

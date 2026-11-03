@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.2,
+  "seed": 6163,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "9bc4b96e73c629a9cc6d806952f68298cb42f03616da21097c0fd81b66f84a39",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.12941110424970528,
+  "NMI": 0.08913984577036252,
+  "ACC": 0.6883116883116883,
+  "fuzzy_entropy": 0.7409818556999709,
+  "prototype_separation": 1.619475198423688,
+  "projection_count": 60,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.823677378540378,
+  "missing_completion_mae": 0.6602427278130261,
+  "observed_reconstruction_mse": 0.193493296243221,
+  "runtime_fit_seconds": 0.8935876250016008,
+  "proto_profile_pearson": [
+    0.8316049592647689,
+    0.8989910109890733
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.7623901646801154,
+          "abs_importance": 0.7623901646801154
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7395474052180097,
+          "abs_importance": 0.7395474052180097
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.7387556727525869,
+          "abs_importance": 0.7387556727525869
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.737743995630981,
+          "abs_importance": 0.737743995630981
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7329094085816045,
+          "abs_importance": 0.7329094085816045
+        },
+        {
+          "feature": "Asparagine",
+          "signed_contrast": -0.7281771172925665,
+          "abs_importance": 0.7281771172925665
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.710449276987889,
+          "abs_importance": 0.710449276987889
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.7100181980930275,
+          "abs_importance": 0.7100181980930275
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7041635841014899,
+          "abs_importance": 0.7041635841014899
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": -0.702680203597543,
+          "abs_importance": 0.702680203597543
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.517378369621374,
+          "abs_importance": 0.517378369621374
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.4705291334057267,
+          "abs_importance": 0.4705291334057267
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.44073727100948085,
+          "abs_importance": 0.44073727100948085
+        },
+        {
+          "feature": "3-Indoxylsulfate",
+          "signed_contrast": 0.43713257873901534,
+          "abs_importance": 0.43713257873901534
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.43236267583592336,
+          "abs_importance": 0.43236267583592336
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.43095361233913304,
+          "abs_importance": 0.43095361233913304
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.42235554016071203,
+          "abs_importance": 0.42235554016071203
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.41497532218828453,
+          "abs_importance": 0.41497532218828453
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.404579730498289,
+          "abs_importance": 0.404579730498289
+        },
+        {
+          "feature": "Trimethylamine N-oxide",
+          "signed_contrast": 0.40444533495745316,
+          "abs_importance": 0.40444533495745316
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

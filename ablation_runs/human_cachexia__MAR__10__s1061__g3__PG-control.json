@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MAR",
+  "rate": 0.1,
+  "seed": 1061,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "9dff9e21c205d74d65f8d55a16b3d2c35ac1d466d269e4b71373ee42d907c90f",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.09312670920692799,
+  "NMI": 0.06658173598958046,
+  "ACC": 0.6623376623376623,
+  "fuzzy_entropy": 0.7814532638988382,
+  "prototype_separation": 1.9226073666764352,
+  "projection_count": 18,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.9432767413221356,
+  "missing_completion_mae": 0.6902559556188484,
+  "observed_reconstruction_mse": 0.19434797396301173,
+  "runtime_fit_seconds": 1.3813150120004138,
+  "proto_profile_pearson": [
+    0.7846394872122983,
+    0.9006874969526136
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7141937339964464,
+          "abs_importance": 0.7141937339964464
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.6949870363621191,
+          "abs_importance": 0.6949870363621191
+        },
+        {
+          "feature": "Alanine",
+          "signed_contrast": -0.6930489082380491,
+          "abs_importance": 0.6930489082380491
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": -0.6881799845103342,
+          "abs_importance": 0.6881799845103342
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.6815996623666386,
+          "abs_importance": 0.6815996623666386
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.6635439117905843,
+          "abs_importance": 0.6635439117905843
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.6632712912627915,
+          "abs_importance": 0.6632712912627915
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.6589178177327831,
+          "abs_importance": 0.6589178177327831
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": -0.6575257762799676,
+          "abs_importance": 0.6575257762799676
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.656195916787277,
+          "abs_importance": 0.656195916787277
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.6041019185804671,
+          "abs_importance": 0.6041019185804671
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.5860232914590877,
+          "abs_importance": 0.5860232914590877
+        },
+        {
+          "feature": "Glutamine",
+          "signed_contrast": 0.5836165892874973,
+          "abs_importance": 0.5836165892874973
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.582633998548295,
+          "abs_importance": 0.582633998548295
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.579776188023201,
+          "abs_importance": 0.579776188023201
+        },
+        {
+          "feature": "Leucine",
+          "signed_contrast": 0.570089778997056,
+          "abs_importance": 0.570089778997056
+        },
+        {
+          "feature": "2-Hydroxyisobutyrate",
+          "signed_contrast": 0.5644431215641934,
+          "abs_importance": 0.5644431215641934
+        },
+        {
+          "feature": "Quinolinate",
+          "signed_contrast": 0.5562134429180283,
+          "abs_importance": 0.5562134429180283
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.5560463382502332,
+          "abs_importance": 0.5560463382502332
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.5532160421332524,
+          "abs_importance": 0.5532160421332524
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

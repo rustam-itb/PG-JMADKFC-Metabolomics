@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 4127,
+  "variant": "PG-control",
+  "gamma": 3.0,
+  "mask_sha256": "0968164bdb144e21accbf13223ee0f74380243034a3909725459141b0ecb359f",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.19174916003337317,
+  "NMI": 0.13092177752682285,
+  "ACC": 0.7272727272727273,
+  "fuzzy_entropy": 0.7999116863390511,
+  "prototype_separation": 1.5613519981446353,
+  "projection_count": 15,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 0.8979658539914358,
+  "missing_completion_mae": 0.7232321517838962,
+  "observed_reconstruction_mse": 0.1064884815752875,
+  "runtime_fit_seconds": 1.0725473360016622,
+  "proto_profile_pearson": [
+    0.7265612461250992,
+    0.9102863211213259
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "Creatinine",
+          "signed_contrast": -0.8119662003602293,
+          "abs_importance": 0.8119662003602293
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": -0.7971234692625839,
+          "abs_importance": 0.7971234692625839
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.7650766809570817,
+          "abs_importance": 0.7650766809570817
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7444880109855491,
+          "abs_importance": 0.7444880109855491
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7394412498273402,
+          "abs_importance": 0.7394412498273402
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": -0.7306000486744968,
+          "abs_importance": 0.7306000486744968
+        },
+        {
+          "feature": "Betaine",
+          "signed_contrast": -0.7191761330411414,
+          "abs_importance": 0.7191761330411414
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.7141394540008388,
+          "abs_importance": 0.7141394540008388
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.713301776215984,
+          "abs_importance": 0.713301776215984
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": -0.7107307387979147,
+          "abs_importance": 0.7107307387979147
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": 0.4113568039041695,
+          "abs_importance": 0.4113568039041695
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.3762394240363683,
+          "abs_importance": 0.3762394240363683
+        },
+        {
+          "feature": "Histidine",
+          "signed_contrast": 0.366624322134345,
+          "abs_importance": 0.366624322134345
+        },
+        {
+          "feature": "Tyrosine",
+          "signed_contrast": 0.3592423910654823,
+          "abs_importance": 0.3592423910654823
+        },
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": 0.3532860507197252,
+          "abs_importance": 0.3532860507197252
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.35048870757995454,
+          "abs_importance": 0.35048870757995454
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": 0.34121846339647094,
+          "abs_importance": 0.34121846339647094
+        },
+        {
+          "feature": "Methylamine",
+          "signed_contrast": 0.3361598158607503,
+          "abs_importance": 0.3361598158607503
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": 0.3280713844433057,
+          "abs_importance": 0.3280713844433057
+        },
+        {
+          "feature": "Creatinine",
+          "signed_contrast": 0.3248503573288414,
+          "abs_importance": 0.3248503573288414
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

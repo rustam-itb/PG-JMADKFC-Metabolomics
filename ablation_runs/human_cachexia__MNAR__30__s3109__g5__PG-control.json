@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "human_cachexia",
+  "mechanism": "MNAR",
+  "rate": 0.3,
+  "seed": 3109,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "3b8a08a567a1c9093e619fc8807d4304f76d8202b0fe0d4363c0ee6213564375",
+  "source_sha256": "cd3e1d8be8e22e9f8671b2ba15e2f73801d1f21f1b15e671b990dd8b8a369b23",
+  "n_samples": 77,
+  "n_features": 63,
+  "ARI": 0.16771824575920563,
+  "NMI": 0.11260129989955135,
+  "ACC": 0.7142857142857143,
+  "fuzzy_entropy": 0.7634570288309718,
+  "prototype_separation": 1.4149304087030883,
+  "projection_count": 85,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.00906726970656,
+  "missing_completion_mae": 0.8226259676047829,
+  "observed_reconstruction_mse": 0.14093592340280406,
+  "runtime_fit_seconds": 1.0222029569995357,
+  "proto_profile_pearson": [
+    0.788458976049861,
+    0.5939053215996937
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": 0.3097225578322484,
+          "abs_importance": 0.3097225578322484
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": 0.2947592910957531,
+          "abs_importance": 0.2947592910957531
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": 0.2539308366674108,
+          "abs_importance": 0.2539308366674108
+        },
+        {
+          "feature": "Hippurate",
+          "signed_contrast": 0.24640035095132545,
+          "abs_importance": 0.24640035095132545
+        },
+        {
+          "feature": "3-Indoxylsulfate",
+          "signed_contrast": 0.24386314957360022,
+          "abs_importance": 0.24386314957360022
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": 0.24308153432979046,
+          "abs_importance": 0.24308153432979046
+        },
+        {
+          "feature": "1,6-Anhydro-beta-D-glucose",
+          "signed_contrast": 0.23982378042824984,
+          "abs_importance": 0.23982378042824984
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": 0.21887174367941523,
+          "abs_importance": 0.21887174367941523
+        },
+        {
+          "feature": "Isoleucine",
+          "signed_contrast": 0.21652138352829103,
+          "abs_importance": 0.21652138352829103
+        },
+        {
+          "feature": "Glycolate",
+          "signed_contrast": 0.21626389089089806,
+          "abs_importance": 0.21626389089089806
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "Ethanolamine",
+          "signed_contrast": -0.7928507651293949,
+          "abs_importance": 0.7928507651293949
+        },
+        {
+          "feature": "Tryptophan",
+          "signed_contrast": -0.7731220039157665,
+          "abs_importance": 0.7731220039157665
+        },
+        {
+          "feature": "cis-Aconitate",
+          "signed_contrast": -0.7699532459087642,
+          "abs_importance": 0.7699532459087642
+        },
+        {
+          "feature": "Threonine",
+          "signed_contrast": -0.7436564686904662,
+          "abs_importance": 0.7436564686904662
+        },
+        {
+          "feature": "Dimethylamine",
+          "signed_contrast": -0.735351745662517,
+          "abs_importance": 0.735351745662517
+        },
+        {
+          "feature": "Valine",
+          "signed_contrast": -0.7004942773076923,
+          "abs_importance": 0.7004942773076923
+        },
+        {
+          "feature": "Citrate",
+          "signed_contrast": -0.6997296575455547,
+          "abs_importance": 0.6997296575455547
+        },
+        {
+          "feature": "tau-Methylhistidine",
+          "signed_contrast": -0.6962745299411879,
+          "abs_importance": 0.6962745299411879
+        },
+        {
+          "feature": "pi-Methylhistidine",
+          "signed_contrast": -0.6876756615046639,
+          "abs_importance": 0.6876756615046639
+        },
+        {
+          "feature": "Pyroglutamate",
+          "signed_contrast": -0.6846221181499471,
+          "abs_importance": 0.6846221181499471
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}

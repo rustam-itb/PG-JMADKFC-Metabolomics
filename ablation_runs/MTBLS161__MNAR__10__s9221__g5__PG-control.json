@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "dataset": "MTBLS161",
+  "mechanism": "MNAR",
+  "rate": 0.1,
+  "seed": 9221,
+  "variant": "PG-control",
+  "gamma": 5.0,
+  "mask_sha256": "2d7cf6b3104479793c5fcae8ed63c3f5a811fce373e4069576cd2f3344778a5a",
+  "source_sha256": "ee275f6a7908f1de98d06c416f73c7c1e0097d0ed1fbc4572551f9f8571eb11e",
+  "n_samples": 59,
+  "n_features": 29,
+  "ARI": 0.11171406751016806,
+  "NMI": 0.09242967066285279,
+  "ACC": 0.6779661016949152,
+  "fuzzy_entropy": 0.9279396855062387,
+  "prototype_separation": 1.1550202152558635,
+  "projection_count": 0,
+  "dynamic_updates": 149,
+  "missing_completion_rmse": 1.5749729546067155,
+  "missing_completion_mae": 1.2782729233332115,
+  "observed_reconstruction_mse": 0.0319211720750024,
+  "runtime_fit_seconds": 0.8155849070008117,
+  "proto_profile_pearson": [
+    0.8158272314352013,
+    0.740247086296017
+  ],
+  "metabolites": [
+    {
+      "cluster": 0,
+      "top10": [
+        {
+          "feature": "M17",
+          "signed_contrast": 0.4671905876801626,
+          "abs_importance": 0.4671905876801626
+        },
+        {
+          "feature": "M15",
+          "signed_contrast": 0.3877675298238712,
+          "abs_importance": 0.3877675298238712
+        },
+        {
+          "feature": "M19",
+          "signed_contrast": 0.3790604517198523,
+          "abs_importance": 0.3790604517198523
+        },
+        {
+          "feature": "M25",
+          "signed_contrast": 0.344475388939817,
+          "abs_importance": 0.344475388939817
+        },
+        {
+          "feature": "M1",
+          "signed_contrast": 0.31891997566509617,
+          "abs_importance": 0.31891997566509617
+        },
+        {
+          "feature": "M12",
+          "signed_contrast": -0.3148398228791638,
+          "abs_importance": 0.3148398228791638
+        },
+        {
+          "feature": "M2",
+          "signed_contrast": 0.3147015624297219,
+          "abs_importance": 0.3147015624297219
+        },
+        {
+          "feature": "M4",
+          "signed_contrast": 0.3050795273990624,
+          "abs_importance": 0.3050795273990624
+        },
+        {
+          "feature": "M16",
+          "signed_contrast": 0.29230989129300905,
+          "abs_importance": 0.29230989129300905
+        },
+        {
+          "feature": "M23",
+          "signed_contrast": 0.2922123221644075,
+          "abs_importance": 0.2922123221644075
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "top10": [
+        {
+          "feature": "M17",
+          "signed_contrast": -0.37781877004455533,
+          "abs_importance": 0.37781877004455533
+        },
+        {
+          "feature": "M15",
+          "signed_contrast": -0.3703527556836598,
+          "abs_importance": 0.3703527556836598
+        },
+        {
+          "feature": "M25",
+          "signed_contrast": -0.3317462728200613,
+          "abs_importance": 0.3317462728200613
+        },
+        {
+          "feature": "M19",
+          "signed_contrast": -0.31163002052652716,
+          "abs_importance": 0.31163002052652716
+        },
+        {
+          "feature": "M2",
+          "signed_contrast": -0.30643050402675465,
+          "abs_importance": 0.30643050402675465
+        },
+        {
+          "feature": "M1",
+          "signed_contrast": -0.28995421286132667,
+          "abs_importance": 0.28995421286132667
+        },
+        {
+          "feature": "M4",
+          "signed_contrast": -0.2868199966312565,
+          "abs_importance": 0.2868199966312565
+        },
+        {
+          "feature": "M22",
+          "signed_contrast": -0.2863858021202808,
+          "abs_importance": 0.2863858021202808
+        },
+        {
+          "feature": "M23",
+          "signed_contrast": -0.2835091357518326,
+          "abs_importance": 0.2835091357518326
+        },
+        {
+          "feature": "M14",
+          "signed_contrast": -0.2796846210836572,
+          "abs_importance": 0.2796846210836572
+        }
+      ]
+    }
+  ],
+  "feature_count_with_zero_observations": 0
+}
